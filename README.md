@@ -17,16 +17,12 @@ engine. Full numbers in [`results/summary.md`](results/summary.md).
 │   ├── 01_download_data.py   # LibriSpeech test-clean + test-other (OpenSLR)
 │   ├── 02_prepare_audio.py   # eval set + synthetic noise at fixed SNR
 │   ├── 03_benchmark.py       # WER / RTF / peak-RSS harness for the 3 models
-│   ├── 04_analyze.py         # summary tables from raw results
-│   ├── 06_make_pdfs.py       # markdown -> PDF (report deliverables)
-│   └── 07_make_docx.py       # markdown -> Word (editable versions)
+│   └── 04_analyze.py         # summary tables from raw results
 ├── results/
 │   ├── raw_results.json      # every hypothesis + per-utterance timings
 │   ├── hypotheses/           # one .txt per model x utterance x condition
+│   ├── samples/              # two clips behind the failure case study
 │   └── summary.csv / .md     # model x track x condition aggregates
-├── report/
-│   ├── technical_report.md / .pdf   # the technical report
-│   └── executive_summary.md / .pdf  # 1-page summary
 ├── references.md             # annotated bibliography
 └── requirements.txt
 ```
@@ -54,8 +50,8 @@ speakers. Models: Whisper base.en and Distil-Whisper small.en (int8 via
 faster-whisper / CTranslate2) and Wav2Vec2 base 960h (transformers, fp32).
 Scored with `jiwer` after lowercase + punctuation-stripping normalisation.
 Timings are wall-clock decode on a 2-core CPU; memory is peak RSS sampled at
-50 ms. See `report/technical_report.md` §4 for methodology, §8 for what the
-setup does *not* prove.
+50 ms. `scripts/03_benchmark.py` holds the methodology in code, and
+`results/summary.md` is the table it produces.
 
 ## Licenses
 
