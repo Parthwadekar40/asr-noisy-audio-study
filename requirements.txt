@@ -6,12 +6,5 @@ transformers==5.17.0         # Wav2Vec2 CTC pipeline
 torch==2.14.0                # CPU wheel; see pytorch.org for the right index
 jiwer                        # WER scoring
 soundfile                    # FLAC/WAV IO
-numpy
-scipy
-librosa
+numpy                        # noise synthesis + SNR mixing
 psutil                       # peak-RSS sampling
-
-# report tooling (only needed to regenerate the PDFs, script 06)
-markdown
-weasyprint
-pypdf
