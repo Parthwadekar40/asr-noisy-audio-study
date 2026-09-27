@@ -1,0 +1,4355 @@
+{
+  "whisper_base": {
+    "model": "whisper_base",
+    "label": "Whisper base.en (faster-whisper, int8)",
+    "load_s": 4.6,
+    "peak_rss_mb": 852,
+    "rows": [
+      {
+        "uid": "1995-1826-0013",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 8.77,
+        "decode_s": 1.416,
+        "rtf": 0.161,
+        "wer": 0.0,
+        "hyp": "So for the hundredth time she was thinking today, as she walked alone, up the lane back of the barn, and then slowly down through the bottoms."
+      },
+      {
+        "uid": "1995-1826-0013",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 8.77,
+        "decode_s": 1.248,
+        "rtf": 0.142,
+        "wer": 0.0,
+        "hyp": "So for the hundredth time she was thinking today, as she walked alone, up the lane back of the barn, and then slowly down through the bottoms."
+      },
+      {
+        "uid": "1995-1826-0013",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 8.77,
+        "decode_s": 1.327,
+        "rtf": 0.151,
+        "wer": 3.7,
+        "hyp": "So for the 100th time she was thinking today, as she walked alone, up the lane back of the barn, and then slowly down through the bottoms."
+      },
+      {
+        "uid": "1995-1826-0013",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 8.77,
+        "decode_s": 1.28,
+        "rtf": 0.146,
+        "wer": 18.52,
+        "hyp": "So for the 100th time she was thinking today, as she walked alone, up the lane, back of the barn, and is sliding down to the barn."
+      },
+      {
+        "uid": "1995-1826-0011",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 8.94,
+        "decode_s": 1.216,
+        "rtf": 0.136,
+        "wer": 0.0,
+        "hyp": "Here, she was teaching dirty children and the smell of confused odors and bodily perspiration was to her at times unbearable."
+      },
+      {
+        "uid": "1995-1826-0011",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 8.94,
+        "decode_s": 1.264,
+        "rtf": 0.141,
+        "wer": 4.76,
+        "hyp": "Here, she was teaching dirty children and the smell of confused odors and bodily perspiration was, to her, times unbearable."
+      },
+      {
+        "uid": "1995-1826-0011",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 8.94,
+        "decode_s": 1.318,
+        "rtf": 0.147,
+        "wer": 23.81,
+        "hyp": "Here she was teaching dirty children with a smell of confused elders and bodily perspiration, plus to her, times unbearable."
+      },
+      {
+        "uid": "1995-1826-0011",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 8.94,
+        "decode_s": 1.161,
+        "rtf": 0.13,
+        "wer": 4.76,
+        "hyp": "Here, she was teaching dirty children and the smell of confused odors and bodily perspiration was to her, times unbearable."
+      },
+      {
+        "uid": "1995-1837-0016",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 7.19,
+        "decode_s": 1.281,
+        "rtf": 0.178,
+        "wer": 5.88,
+        "hyp": "For one long moment he paused, stupid, agape, with utter amazement, then leaned dizzily against the tree."
+      },
+      {
+        "uid": "1995-1837-0016",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 7.19,
+        "decode_s": 1.219,
+        "rtf": 0.17,
+        "wer": 11.76,
+        "hyp": "For one long moment he paused, stupid, agate, with utter amazement, then leaned dizzily against the tree."
+      },
+      {
+        "uid": "1995-1837-0016",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 7.19,
+        "decode_s": 1.25,
+        "rtf": 0.174,
+        "wer": 23.53,
+        "hyp": "For one long moment he paused, stupid, agape, with utter amazement, then laying dizzy little against the tree."
+      },
+      {
+        "uid": "1995-1837-0016",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 7.19,
+        "decode_s": 1.069,
+        "rtf": 0.149,
+        "wer": 52.94,
+        "hyp": "But one long moment he paused, stupid, again, with other amazing buddies, then learned easily against the game."
+      },
+      {
+        "uid": "1995-1826-0009",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 7.57,
+        "decode_s": 1.116,
+        "rtf": 0.147,
+        "wer": 0.0,
+        "hyp": "You ought to know, John. If I teach Negroes, I'll scarcely see much of people in my own class."
+      },
+      {
+        "uid": "1995-1826-0009",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 7.57,
+        "decode_s": 1.139,
+        "rtf": 0.15,
+        "wer": 0.0,
+        "hyp": "You ought to know, John. If I teach Negroes, I'll scarcely see much of people in my own class."
+      },
+      {
+        "uid": "1995-1826-0009",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 7.57,
+        "decode_s": 1.106,
+        "rtf": 0.146,
+        "wer": 0.0,
+        "hyp": "You ought to know, John, if I teach Negroes I'll scarcely see much of people in my own class."
+      },
+      {
+        "uid": "1995-1826-0009",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 7.57,
+        "decode_s": 1.133,
+        "rtf": 0.15,
+        "wer": 21.05,
+        "hyp": "You all to know, John, I teach new girls, I'll scarcely see much of people in my own class."
+      },
+      {
+        "uid": "1188-133604-0041",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 10.07,
+        "decode_s": 1.345,
+        "rtf": 0.134,
+        "wer": 14.81,
+        "hyp": "It is a greener bringing down her one's sheaf of corn to an old water mill, itself mossy and rent, scarcely able to get its stones to turn."
+      },
+      {
+        "uid": "1188-133604-0041",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 10.07,
+        "decode_s": 1.287,
+        "rtf": 0.128,
+        "wer": 14.81,
+        "hyp": "It is a greener bringing down her one sheath of corn to an old water mill, itself mossy and rent, scarcely able to get its stones to turn."
+      },
+      {
+        "uid": "1188-133604-0041",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 10.07,
+        "decode_s": 1.271,
+        "rtf": 0.126,
+        "wer": 7.41,
+        "hyp": "It is a greener bringing down her one sheaf of corn to an old watermelon, itself mossy and rent, scarcely able to get its stones to turn."
+      },
+      {
+        "uid": "1188-133604-0041",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 10.07,
+        "decode_s": 1.305,
+        "rtf": 0.13,
+        "wer": 59.26,
+        "hyp": "It is a cleaner bringing down her once she fits into an old water mill, itself moss in a rent, and scarcely able to get it stoned at her."
+      },
+      {
+        "uid": "1188-133604-0032",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 10.98,
+        "decode_s": 1.366,
+        "rtf": 0.124,
+        "wer": 3.45,
+        "hyp": "It is only a pencil outline by Edward Byrne Jones in illustration of the story of Psyche. It is the introduction of Psyche after all her troubles into Heaven."
+      },
+      {
+        "uid": "1188-133604-0032",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 10.98,
+        "decode_s": 1.401,
+        "rtf": 0.128,
+        "wer": 3.45,
+        "hyp": "It is only a pencil outline by Edward Byrne Jones in illustration of the story of Psyche. It is the introduction of Psyche after all her troubles into Heaven."
+      },
+      {
+        "uid": "1188-133604-0032",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 10.98,
+        "decode_s": 1.209,
+        "rtf": 0.11,
+        "wer": 3.45,
+        "hyp": "It is only a pencil outline by Edward Byrne Jones in illustration of the story of Psyche. It is the introduction of Psyche after all her troubles into heaven."
+      },
+      {
+        "uid": "1188-133604-0032",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 10.98,
+        "decode_s": 1.314,
+        "rtf": 0.12,
+        "wer": 34.48,
+        "hyp": "There's only a pencil outline by Edward Byrne Jones, a illustration of the story of Citelet. It was the introduction of Citelet after all her troubles had to happen."
+      },
+      {
+        "uid": "1188-133604-0001",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 9.04,
+        "decode_s": 1.13,
+        "rtf": 0.125,
+        "wer": 5.56,
+        "hyp": "They unite every quality. And sometimes you will find me referring to them as colorists, sometimes as kiaroscurists."
+      },
+      {
+        "uid": "1188-133604-0001",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 9.04,
+        "decode_s": 1.122,
+        "rtf": 0.124,
+        "wer": 5.56,
+        "hyp": "They unite every quality, and sometimes you will find me referring to them as colorists. Sometimes as Chiaroscurosts."
+      },
+      {
+        "uid": "1188-133604-0001",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 9.04,
+        "decode_s": 1.139,
+        "rtf": 0.126,
+        "wer": 5.56,
+        "hyp": "They unite every quality, and sometimes you will find me referring to them as colorists. Sometimes as Chiaroscurus."
+      },
+      {
+        "uid": "1188-133604-0001",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 9.04,
+        "decode_s": 1.181,
+        "rtf": 0.131,
+        "wer": 22.22,
+        "hyp": "They unite every quality, and sometimes you will finally refer to them as colorists. Sometimes as Chiaroscurus."
+      },
+      {
+        "uid": "1188-133604-0000",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 10.72,
+        "decode_s": 1.282,
+        "rtf": 0.12,
+        "wer": 5.26,
+        "hyp": "You will find me continually speaking of four men, Titian, Holbein, Turner, and Tintorette in almost the same terms."
+      },
+      {
+        "uid": "1188-133604-0000",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 10.72,
+        "decode_s": 1.331,
+        "rtf": 0.124,
+        "wer": 5.26,
+        "hyp": "You will find me continually speaking of four men, Titian, Holbein, Turner, and Thintarette, in almost the same terms."
+      },
+      {
+        "uid": "1188-133604-0000",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 10.72,
+        "decode_s": 1.23,
+        "rtf": 0.115,
+        "wer": 10.53,
+        "hyp": "You will find me continually speaking of four men, Titian, Holbein, Turner, and Tintarette in almost the same times."
+      },
+      {
+        "uid": "1188-133604-0000",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 10.72,
+        "decode_s": 1.349,
+        "rtf": 0.126,
+        "wer": 21.05,
+        "hyp": "We will finally continually speaking of four men, Titian, Holbein, Turner, and Tinkerette in almost the same terms."
+      },
+      {
+        "uid": "4077-13751-0002",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 9.75,
+        "decode_s": 2.346,
+        "rtf": 0.241,
+        "wer": 4.55,
+        "hyp": "Instead of but six regularly affiliated members, and at most two score of adherence, the organization numbers today many hundred thousand souls."
+      },
+      {
+        "uid": "4077-13751-0002",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 9.75,
+        "decode_s": 1.406,
+        "rtf": 0.144,
+        "wer": 0.0,
+        "hyp": "Instead of but six regularly affiliated members, and at most, two score of adherents, the organization numbers today many hundred thousand souls."
+      },
+      {
+        "uid": "4077-13751-0002",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 9.75,
+        "decode_s": 1.356,
+        "rtf": 0.139,
+        "wer": 13.64,
+        "hyp": "Instead of about six regularly-affiliated members, and at most, two score of a theorist, the organization numbers today many hundred thousand souls."
+      },
+      {
+        "uid": "4077-13751-0002",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 9.75,
+        "decode_s": 1.289,
+        "rtf": 0.132,
+        "wer": 9.09,
+        "hyp": "Instead of but six regularly affiliated members, and at most two score of adherence, the organization offers today many hundred thousand souls."
+      },
+      {
+        "uid": "4077-13751-0008",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 10.55,
+        "decode_s": 1.336,
+        "rtf": 0.127,
+        "wer": 0.0,
+        "hyp": "It is notable that the Indian tribes have generally regarded the religion of the Latter-day Saints with favor, seeing in the Book of Mormon striking agreement with their own traditions."
+      },
+      {
+        "uid": "4077-13751-0008",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 10.55,
+        "decode_s": 1.31,
+        "rtf": 0.124,
+        "wer": 3.23,
+        "hyp": "It is notable that the Indian tribes have generally regarded their religion of the Latter-day Saints with favor, seeing in the Book of Mormon striking agreement with their own traditions."
+      },
+      {
+        "uid": "4077-13751-0008",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 10.55,
+        "decode_s": 1.298,
+        "rtf": 0.123,
+        "wer": 3.23,
+        "hyp": "It is notable that the Indian tribes have generally regarded their religion of the Latter-day Saints with favor, seeing in the Book of Mormon striking agreement with their own traditions."
+      },
+      {
+        "uid": "4077-13751-0008",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 10.55,
+        "decode_s": 1.456,
+        "rtf": 0.138,
+        "wer": 12.9,
+        "hyp": "It is notable that the Indian tribes have generally regarded their religion of the Latter-day Snates with favor of seeing in the Book of Mormon striking agreement to their own traditions."
+      },
+      {
+        "uid": "4077-13754-0014",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 10.97,
+        "decode_s": 1.196,
+        "rtf": 0.109,
+        "wer": 0.0,
+        "hyp": "The people contested these measures one by one in the courts, presenting in case after case the different phases of the subject and urging the unconstitutionality of the measure"
+      },
+      {
+        "uid": "4077-13754-0014",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 10.97,
+        "decode_s": 1.337,
+        "rtf": 0.122,
+        "wer": 0.0,
+        "hyp": "The people contested these measures one by one in the courts, presenting in case after case the different phases of the subject and urging the unconstitutionality of the measure."
+      },
+      {
+        "uid": "4077-13754-0014",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 10.97,
+        "decode_s": 1.279,
+        "rtf": 0.117,
+        "wer": 0.0,
+        "hyp": "The people contested these measures one by one in the courts, presenting in case after case the different phases of the subject and urging the unconstitutionality of the measure."
+      },
+      {
+        "uid": "4077-13754-0014",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 10.97,
+        "decode_s": 1.481,
+        "rtf": 0.135,
+        "wer": 0.0,
+        "hyp": "The people contested these measures one by one in the courts, presenting in case after case the different phases of the subject and urging the unconstitutionality of the measure."
+      },
+      {
+        "uid": "4077-13751-0020",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 10.29,
+        "decode_s": 1.374,
+        "rtf": 0.134,
+        "wer": 15.38,
+        "hyp": "As a sample of the press comments against the brutality of the Missourians, I quote a paragraph from the Quincy Argus, March 16th, 1839."
+      },
+      {
+        "uid": "4077-13751-0020",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 10.29,
+        "decode_s": 1.428,
+        "rtf": 0.139,
+        "wer": 15.38,
+        "hyp": "As a sample of the press comments against the brutality of the Missourians, I quote a paragraph from the Quincy Argus, March 16th, 1839."
+      },
+      {
+        "uid": "4077-13751-0020",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 10.29,
+        "decode_s": 1.319,
+        "rtf": 0.128,
+        "wer": 15.38,
+        "hyp": "As a sample of the press comments against the brutality of the Missourians, I quote a paragraph from the Quincy Argus, March 16th, 1839."
+      },
+      {
+        "uid": "4077-13751-0020",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 10.29,
+        "decode_s": 1.385,
+        "rtf": 0.135,
+        "wer": 26.92,
+        "hyp": "As a sample of the press comments, against the brutality of the Xerians, I called a paragraph from the Quincy Argus in March 16th, 1839."
+      },
+      {
+        "uid": "3575-170457-0003",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 7.59,
+        "decode_s": 1.317,
+        "rtf": 0.174,
+        "wer": 11.54,
+        "hyp": "Surely, it must be because we're in danger of loving each other too well, of losing sight of the creator and idolatry of the creature."
+      },
+      {
+        "uid": "3575-170457-0003",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 7.59,
+        "decode_s": 1.231,
+        "rtf": 0.162,
+        "wer": 7.69,
+        "hyp": "Truly it must be because we are in danger of loving each other too well, of losing sight of the creator and idolatry of the creature."
+      },
+      {
+        "uid": "3575-170457-0003",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 7.59,
+        "decode_s": 1.296,
+        "rtf": 0.171,
+        "wer": 7.69,
+        "hyp": "Truly it must be because we are in danger of loving each other too well, of losing sight of the creator and idolatry of the creature."
+      },
+      {
+        "uid": "3575-170457-0003",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 7.59,
+        "decode_s": 1.401,
+        "rtf": 0.185,
+        "wer": 7.69,
+        "hyp": "Truly it must be because we are in danger of loving each other too well, of losing sight of the creator and idolatry of the creature."
+      },
+      {
+        "uid": "3575-170457-0020",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 8.64,
+        "decode_s": 1.55,
+        "rtf": 0.179,
+        "wer": 3.23,
+        "hyp": "I know the first letter I wrote to you is all senseless trash from beginning to end, but I am not altogether the idle dreaming being, it would seem to denote."
+      },
+      {
+        "uid": "3575-170457-0020",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 8.64,
+        "decode_s": 1.487,
+        "rtf": 0.172,
+        "wer": 9.68,
+        "hyp": "I know the first letter I wrote to you was all since this trash from beginning to end, but I am not altogether the idol dreaming being, it would seem to denote."
+      },
+      {
+        "uid": "3575-170457-0020",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 8.64,
+        "decode_s": 1.259,
+        "rtf": 0.146,
+        "wer": 6.45,
+        "hyp": "I know the first letter I wrote to you was all senseless trash from beginning to end, but I am not altogether the idol dreaming me, it would seem to denote."
+      },
+      {
+        "uid": "3575-170457-0020",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 8.64,
+        "decode_s": 1.619,
+        "rtf": 0.187,
+        "wer": 41.94,
+        "hyp": "I know the first letter I wrote to you with all forms of trash from the biggest end, but I am not altogether the idol, dreaming, wondering if it would seem to know what I would say."
+      },
+      {
+        "uid": "3575-170457-0055",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 11.85,
+        "decode_s": 1.476,
+        "rtf": 0.125,
+        "wer": 0.0,
+        "hyp": "Still, her heart had received a shock in the perception of Anne's delicacy. And all these holidays she watched over her with the longing, fond anxiety, which is so full of sudden pangs of fear."
+      },
+      {
+        "uid": "3575-170457-0055",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 11.85,
+        "decode_s": 1.522,
+        "rtf": 0.128,
+        "wer": 0.0,
+        "hyp": "Still, her heart had received a shock in the perception of Anne's delicacy, and all these holidays she watched over her with the longing, fond anxiety, which is so full of sudden pangs of fear."
+      },
+      {
+        "uid": "3575-170457-0055",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 11.85,
+        "decode_s": 1.582,
+        "rtf": 0.134,
+        "wer": 2.86,
+        "hyp": "Still, her heart had received a shock in the perception of Anne's delicacy. In all these holidays, she watched over her with the longing, fond anxiety, which is so full of sudden pangs of fear."
+      },
+      {
+        "uid": "3575-170457-0055",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 11.85,
+        "decode_s": 1.498,
+        "rtf": 0.126,
+        "wer": 48.57,
+        "hyp": "Still, he'll hard-head receive the shock and the perception of M and Delphi, and all these holidays she watched over her with the long and fond of the idea, which is so full of sudden pain this year."
+      },
+      {
+        "uid": "3575-170457-0044",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 9.72,
+        "decode_s": 1.275,
+        "rtf": 0.131,
+        "wer": 11.11,
+        "hyp": "After this disappointment, I never dare ruck in with certainty on the enjoyment of a pleasure again. It seems as if some fatalities stood between you and me."
+      },
+      {
+        "uid": "3575-170457-0044",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 9.72,
+        "decode_s": 1.367,
+        "rtf": 0.141,
+        "wer": 3.7,
+        "hyp": "After this disappointment, I never dare wrecking with certainty on the enjoyment of a pleasure again. It seems as if some fatality stood between you and me."
+      },
+      {
+        "uid": "3575-170457-0044",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 9.72,
+        "decode_s": 1.289,
+        "rtf": 0.133,
+        "wer": 11.11,
+        "hyp": "After this disappointment, I never dare reckon with certainty on the enjoyment of the pleasure again. It seems as if some fatality stood between me."
+      },
+      {
+        "uid": "3575-170457-0044",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 9.72,
+        "decode_s": 1.31,
+        "rtf": 0.135,
+        "wer": 18.52,
+        "hyp": "After this disappointment, I never dare reckon with certainty on the enjoyment of a pleasure again. It seems as if some fatalities stood the tornado."
+      },
+      {
+        "uid": "3570-5695-0000",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 4.83,
+        "decode_s": 1.17,
+        "rtf": 0.242,
+        "wer": 0.0,
+        "hyp": "In a general way, though not wholly nor consistently, these two groups coincide."
+      },
+      {
+        "uid": "3570-5695-0000",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 4.83,
+        "decode_s": 1.007,
+        "rtf": 0.208,
+        "wer": 15.38,
+        "hyp": "In a general way, though not wholly nor consistently, these two groups go inside."
+      },
+      {
+        "uid": "3570-5695-0000",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 4.83,
+        "decode_s": 1.014,
+        "rtf": 0.21,
+        "wer": 0.0,
+        "hyp": "In a general way, though not wholly nor consistently these two groups coincide."
+      },
+      {
+        "uid": "3570-5695-0000",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 4.83,
+        "decode_s": 1.055,
+        "rtf": 0.218,
+        "wer": 15.38,
+        "hyp": "In a general way, though not wholly nor consistently, these two groups go inside."
+      },
+      {
+        "uid": "3570-5696-0002",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 7.51,
+        "decode_s": 1.183,
+        "rtf": 0.158,
+        "wer": 4.76,
+        "hyp": "Other circumstances permitting that instinct disposes men to look with favour upon productive efficiency and on whatever is of human use."
+      },
+      {
+        "uid": "3570-5696-0002",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 7.51,
+        "decode_s": 1.168,
+        "rtf": 0.156,
+        "wer": 19.05,
+        "hyp": "Are the circumstances committing that instinct disposes men to look with favour upon productive efficiency and on whatever is of human use?"
+      },
+      {
+        "uid": "3570-5696-0002",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 7.51,
+        "decode_s": 1.271,
+        "rtf": 0.169,
+        "wer": 14.29,
+        "hyp": "Are the circumstances permitting that instinct disposes men to look with favour upon productive efficiency and on whatever is of human use?"
+      },
+      {
+        "uid": "3570-5696-0002",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 7.51,
+        "decode_s": 1.256,
+        "rtf": 0.167,
+        "wer": 52.38,
+        "hyp": "are the circumstances permitted, that instinct is supposed to be meant to live with behaviour upon productive efficiency and on whatever age of human use."
+      },
+      {
+        "uid": "3570-5695-0004",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 10.6,
+        "decode_s": 1.459,
+        "rtf": 0.138,
+        "wer": 0.0,
+        "hyp": "If beauty or comfort is achieved, and it is a more or less fortuitous circumstance if they are, they must be achieved by means and methods that commend themselves to the great economic law of wasted effort."
+      },
+      {
+        "uid": "3570-5695-0004",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 10.6,
+        "decode_s": 1.532,
+        "rtf": 0.144,
+        "wer": 8.11,
+        "hyp": "If future comfort is achieved and it is a more or less fortuitous circumstances if they are, they must be achieved by means and methods that commend themselves to the great economic law of wasted effort."
+      },
+      {
+        "uid": "3570-5695-0004",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 10.6,
+        "decode_s": 1.513,
+        "rtf": 0.143,
+        "wer": 16.22,
+        "hyp": "It's future comfort is achieved and it is a more or less fortuitous circumstance if they are. They must be achieved by means and methods that commend themselves who the great economic role of wasted assets."
+      },
+      {
+        "uid": "3570-5695-0004",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 10.6,
+        "decode_s": 1.548,
+        "rtf": 0.146,
+        "wer": 32.43,
+        "hyp": "This beauty of comfort is achieved and it is a more or less protruding focus as it is. They must be achieved by names and methods that commend themselves to the great economic law of police as it is."
+      },
+      {
+        "uid": "3570-5694-0001",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 5.67,
+        "decode_s": 1.242,
+        "rtf": 0.219,
+        "wer": 0.0,
+        "hyp": "The utility of consumption as an evidence of wealth is to be classed as a derivative growth."
+      },
+      {
+        "uid": "3570-5694-0001",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 5.67,
+        "decode_s": 1.162,
+        "rtf": 0.205,
+        "wer": 5.88,
+        "hyp": "The utility of consumption as an evidence of wealth is to be cast as a derivative growth."
+      },
+      {
+        "uid": "3570-5694-0001",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 5.67,
+        "decode_s": 1.203,
+        "rtf": 0.212,
+        "wer": 5.88,
+        "hyp": "The utility of consumption as an evidence of wealth is to be cast as a derivative growth."
+      },
+      {
+        "uid": "3570-5694-0001",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 5.67,
+        "decode_s": 1.169,
+        "rtf": 0.206,
+        "wer": 11.76,
+        "hyp": "The utility of consumption as an evidence of wealth is to be cast as a derivative of growth."
+      },
+      {
+        "uid": "367-130732-0016",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 4.69,
+        "decode_s": 1.116,
+        "rtf": 0.238,
+        "wer": 12.5,
+        "hyp": "Take the meat of one large crab scaping out all the fat from the shell."
+      },
+      {
+        "uid": "367-130732-0016",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 4.69,
+        "decode_s": 1.069,
+        "rtf": 0.228,
+        "wer": 6.25,
+        "hyp": "Take the meat of one large crab scraping out all the fat from the shell."
+      },
+      {
+        "uid": "367-130732-0016",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 4.69,
+        "decode_s": 1.263,
+        "rtf": 0.269,
+        "wer": 31.25,
+        "hyp": "Take the meat of one large cat escaping on all the fat in the shell."
+      },
+      {
+        "uid": "367-130732-0016",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 4.69,
+        "decode_s": 1.229,
+        "rtf": 0.262,
+        "wer": 56.25,
+        "hyp": "Take the meat of one large cat and scare me of all the bags I want."
+      },
+      {
+        "uid": "367-130732-0022",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 7.45,
+        "decode_s": 1.377,
+        "rtf": 0.185,
+        "wer": 7.14,
+        "hyp": "So far it has been used mostly for garnishment of other dishes, and it is only recently that the whole brow has been making a specialty of them."
+      },
+      {
+        "uid": "367-130732-0022",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 7.45,
+        "decode_s": 1.377,
+        "rtf": 0.185,
+        "wer": 7.14,
+        "hyp": "So far it has been used mostly for garnishment of other dishes, and it is only recently that the whole brow has been making a specialty of them."
+      },
+      {
+        "uid": "367-130732-0022",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 7.45,
+        "decode_s": 1.265,
+        "rtf": 0.17,
+        "wer": 17.86,
+        "hyp": "So far it has been used mostly for garnishment about dishes, and it is only recently that the whole brow has been making the specialty of them."
+      },
+      {
+        "uid": "367-130732-0022",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 7.45,
+        "decode_s": 1.33,
+        "rtf": 0.179,
+        "wer": 17.86,
+        "hyp": "So far it has been used mostly for garnishment about the dishes, and it is only recently that the whole crowd has been making the specialty of them."
+      },
+      {
+        "uid": "367-293981-0001",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 4.96,
+        "decode_s": 1.136,
+        "rtf": 0.229,
+        "wer": 7.14,
+        "hyp": "I say so, continue Don Quixote because I hate taking away anyone's good name."
+      },
+      {
+        "uid": "367-293981-0001",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 4.96,
+        "decode_s": 1.032,
+        "rtf": 0.208,
+        "wer": 7.14,
+        "hyp": "I say so, continue Don Quixote, because I hate taking away anyone's good name."
+      },
+      {
+        "uid": "367-293981-0001",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 4.96,
+        "decode_s": 1.114,
+        "rtf": 0.225,
+        "wer": 7.14,
+        "hyp": "I say so, continue Don Quixote because I hate taking away anyone's good name."
+      },
+      {
+        "uid": "367-293981-0001",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 4.96,
+        "decode_s": 1.092,
+        "rtf": 0.22,
+        "wer": 50.0,
+        "hyp": "I say something to me don't get it, because I hate taking away anyone's good news."
+      },
+      {
+        "uid": "367-130732-0012",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 8.44,
+        "decode_s": 1.385,
+        "rtf": 0.164,
+        "wer": 0.0,
+        "hyp": "I say, come to San Francisco, advisedly, for while the crab is found all along the coast, it is prepared nowhere so deliciously as in San Francisco."
+      },
+      {
+        "uid": "367-130732-0012",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 8.44,
+        "decode_s": 1.402,
+        "rtf": 0.166,
+        "wer": 0.0,
+        "hyp": "I say, come to San Francisco, advisedly, for while the crab is found all along the coast, it is prepared nowhere so deliciously as in San Francisco."
+      },
+      {
+        "uid": "367-130732-0012",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 8.44,
+        "decode_s": 1.428,
+        "rtf": 0.169,
+        "wer": 11.11,
+        "hyp": "I say, come to San Francisco, advisely, for while the tribe is found all along the coast and is prepared nowhere so deliciously as in San Francisco."
+      },
+      {
+        "uid": "367-130732-0012",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 8.44,
+        "decode_s": 1.297,
+        "rtf": 0.154,
+        "wer": 25.93,
+        "hyp": "I say, come to San Francisco, advise me for why the crab is found all along because it is prepared nowhere so deliciously at San Francisco."
+      },
+      {
+        "uid": "7902-96591-0014",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 9.71,
+        "decode_s": 1.798,
+        "rtf": 0.185,
+        "wer": 0.0,
+        "hyp": "The kick he had received was a foretaste of what he might expect, and after a little consideration he came to the conclusion that his duty was to escape and get back to the cutter as quickly as he could."
+      },
+      {
+        "uid": "7902-96591-0014",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 9.71,
+        "decode_s": 1.302,
+        "rtf": 0.134,
+        "wer": 5.0,
+        "hyp": "The kick he had received was a foretaste of what he might expect and after a little consideration he came to the conclusion that his duty was to escape and get back to the cutters quickly as he could."
+      },
+      {
+        "uid": "7902-96591-0014",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 9.71,
+        "decode_s": 1.51,
+        "rtf": 0.156,
+        "wer": 2.5,
+        "hyp": "The kick he had received was a foretaste of what he might expect, and after a little consideration he came to the conclusion that his duty was to escape, and get back to the cutters as quickly as he could."
+      },
+      {
+        "uid": "7902-96591-0014",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 9.71,
+        "decode_s": 1.49,
+        "rtf": 0.153,
+        "wer": 15.0,
+        "hyp": "The kick he had received was a foretaste of what he might expect, and after the little consideration he came for the conclusion that his duty was to escape, and get back to the cutters with what he could."
+      },
+      {
+        "uid": "7902-96592-0032",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 4.33,
+        "decode_s": 1.172,
+        "rtf": 0.271,
+        "wer": 7.69,
+        "hyp": "No, I can't part with that. Ha ha ha, left the boy jeeringly."
+      },
+      {
+        "uid": "7902-96592-0032",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 4.33,
+        "decode_s": 1.196,
+        "rtf": 0.276,
+        "wer": 53.85,
+        "hyp": "No, I can't part with that. That's the board, you hear me?"
+      },
+      {
+        "uid": "7902-96592-0032",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 4.33,
+        "decode_s": 1.22,
+        "rtf": 0.282,
+        "wer": 53.85,
+        "hyp": "No, I can't part with that"
+      },
+      {
+        "uid": "7902-96592-0032",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 4.33,
+        "decode_s": 1.083,
+        "rtf": 0.25,
+        "wer": 53.85,
+        "hyp": "No, I can't part with that"
+      },
+      {
+        "uid": "7902-96591-0015",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 9.61,
+        "decode_s": 1.459,
+        "rtf": 0.152,
+        "wer": 6.25,
+        "hyp": "To do this, he must scheme, lie head till morning, then make for the nearest point and signal for help, unless the boat's crew were already searching for him. How to escape?"
+      },
+      {
+        "uid": "7902-96591-0015",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 9.61,
+        "decode_s": 1.454,
+        "rtf": 0.151,
+        "wer": 9.38,
+        "hyp": "To do this he must scheme, lie head to a morning, then make for the nearest point and signal for help, unless a boat's crew were already searching for him. How to escape?"
+      },
+      {
+        "uid": "7902-96591-0015",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 9.61,
+        "decode_s": 1.309,
+        "rtf": 0.136,
+        "wer": 25.0,
+        "hyp": "To do this, he must scheme, lie head to the morning and make for the nearest point and signal for help, unless both schools are already searching for him. How to escape?"
+      },
+      {
+        "uid": "7902-96591-0015",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 9.61,
+        "decode_s": 1.568,
+        "rtf": 0.163,
+        "wer": 62.5,
+        "hyp": "To do this, who must scheme a lot of head-to-the-morning and make for the nearest point to signal for help, who wants to both crew will already surge and climb. How do we escape it?"
+      },
+      {
+        "uid": "7902-96592-0029",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 5.37,
+        "decode_s": 1.197,
+        "rtf": 0.223,
+        "wer": 5.0,
+        "hyp": "He divided the paint and produced a few squeaks and grating sounds as he realized that the attempt was madness."
+      },
+      {
+        "uid": "7902-96592-0029",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 5.37,
+        "decode_s": 1.358,
+        "rtf": 0.253,
+        "wer": 20.0,
+        "hyp": "He divided the paint and produced a few squeaks and grating sounds as he realized the utempo's madness."
+      },
+      {
+        "uid": "7902-96592-0029",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 5.37,
+        "decode_s": 1.235,
+        "rtf": 0.23,
+        "wer": 10.0,
+        "hyp": "He divided the paint and produced a few squeaks and graying sounds as he realized that the attempt was madness."
+      },
+      {
+        "uid": "7902-96592-0029",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 5.37,
+        "decode_s": 1.167,
+        "rtf": 0.217,
+        "wer": 35.0,
+        "hyp": "He divided the paint and produced a few scoops and grating tones as he realized he was implemented."
+      },
+      {
+        "uid": "6070-86744-0027",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 10.41,
+        "decode_s": 1.401,
+        "rtf": 0.135,
+        "wer": 3.45,
+        "hyp": "And this time it must be confessed to that, contrary to the usual state of affairs in discussions between the young men, the effective arguments were all on Albert's side."
+      },
+      {
+        "uid": "6070-86744-0027",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 10.41,
+        "decode_s": 1.246,
+        "rtf": 0.12,
+        "wer": 13.79,
+        "hyp": "And this time it must become first to that contrary to the usual state of affairs and discussions between the young men, the effective arguments were all on Albert's side."
+      },
+      {
+        "uid": "6070-86744-0027",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 10.41,
+        "decode_s": 1.341,
+        "rtf": 0.129,
+        "wer": 24.14,
+        "hyp": "And this time it must become fair to that, contrary to the usual state of affairs and discussions between the young men. The effective arguments for all on our good side."
+      },
+      {
+        "uid": "6070-86744-0027",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 10.41,
+        "decode_s": 1.434,
+        "rtf": 0.138,
+        "wer": 58.62,
+        "hyp": "And this time, it must become first known as a constitutional issue of state of affairs and discussion with the young men. The effects of arguments will all allow this matter."
+      },
+      {
+        "uid": "6070-86744-0010",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 5.67,
+        "decode_s": 1.045,
+        "rtf": 0.184,
+        "wer": 0.0,
+        "hyp": "For France, no for Venice, I shall remain in Italy for another year or two."
+      },
+      {
+        "uid": "6070-86744-0010",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 5.67,
+        "decode_s": 1.172,
+        "rtf": 0.207,
+        "wer": 0.0,
+        "hyp": "For France, no for Venice, I shall remain in Italy for another year or two."
+      },
+      {
+        "uid": "6070-86744-0010",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 5.67,
+        "decode_s": 1.238,
+        "rtf": 0.218,
+        "wer": 6.67,
+        "hyp": "For them, no for Venice, I shall remain in Italy for another year or two."
+      },
+      {
+        "uid": "6070-86744-0010",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 5.67,
+        "decode_s": 1.309,
+        "rtf": 0.231,
+        "wer": 40.0,
+        "hyp": "No, because I should remain in it for another year or two."
+      },
+      {
+        "uid": "6070-63485-0002",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 10.64,
+        "decode_s": 2.407,
+        "rtf": 0.226,
+        "wer": 0.0,
+        "hyp": "By means of this stratagem, they followed so closely that, although within a few steps of Sarah and Tom, they did not hear them."
+      },
+      {
+        "uid": "6070-63485-0002",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 10.64,
+        "decode_s": 1.14,
+        "rtf": 0.107,
+        "wer": 16.67,
+        "hyp": "By means of this strategy, they followed so closely that, although within a few steps of seren calm, they did not hear them."
+      },
+      {
+        "uid": "6070-63485-0002",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 10.64,
+        "decode_s": 1.319,
+        "rtf": 0.124,
+        "wer": 16.67,
+        "hyp": "By means of this stratagen, they followed so closely that, although within a few steps of serendom, they did not hear them."
+      },
+      {
+        "uid": "6070-63485-0002",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 10.64,
+        "decode_s": 7.346,
+        "rtf": 0.69,
+        "wer": 83.33,
+        "hyp": "By using this text name, I followed two skills with a word, although with my three steps to seven times, they do not need it."
+      },
+      {
+        "uid": "6070-86745-0013",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 8.14,
+        "decode_s": 1.044,
+        "rtf": 0.128,
+        "wer": 10.53,
+        "hyp": "Pests, I will do nothing of the kind. The moment they come from government you would find them acceptable.\""
+      },
+      {
+        "uid": "6070-86745-0013",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 8.14,
+        "decode_s": 1.097,
+        "rtf": 0.135,
+        "wer": 10.53,
+        "hyp": "Pests, I will do nothing of the kind. The moment they come from government, you would find them acceptable."
+      },
+      {
+        "uid": "6070-86745-0013",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 8.14,
+        "decode_s": 1.185,
+        "rtf": 0.146,
+        "wer": 31.58,
+        "hyp": "And it's a pest. I will do nothing of the kind. The moment they come from governments, you would find them acceptable."
+      },
+      {
+        "uid": "6070-86745-0013",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 8.14,
+        "decode_s": 1.3,
+        "rtf": 0.16,
+        "wer": 52.63,
+        "hyp": "Yes, I will do nothing to the kind, and the moment they come from darkness, you explain them exactly what it is."
+      },
+      {
+        "uid": "533-131562-0001",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 8.45,
+        "decode_s": 1.241,
+        "rtf": 0.147,
+        "wer": 10.0,
+        "hyp": "The kiss of your cabinet desk, drawer and whatever else you possess, said he, rising and holding out his hand."
+      },
+      {
+        "uid": "533-131562-0001",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 8.45,
+        "decode_s": 1.141,
+        "rtf": 0.135,
+        "wer": 35.0,
+        "hyp": "In the case of your cabinet desk, drawer, and whatever else you possess, set it here, rising and holding out its hand."
+      },
+      {
+        "uid": "533-131562-0001",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 8.45,
+        "decode_s": 1.072,
+        "rtf": 0.127,
+        "wer": 25.0,
+        "hyp": "The kids of your cabinet desk, drawer and whatever else you possess said he, rising and holding all its hands."
+      },
+      {
+        "uid": "533-131562-0001",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 8.45,
+        "decode_s": 1.316,
+        "rtf": 0.156,
+        "wer": 25.0,
+        "hyp": "The case of your cabinet desk, drawer, and whatever else you possess. So he, rising and holding on his hands."
+      },
+      {
+        "uid": "533-1066-0010",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 6.78,
+        "decode_s": 1.154,
+        "rtf": 0.17,
+        "wer": 0.0,
+        "hyp": "Put on heavy shoes and some old dark clothes and make up your mind not to be surprised at anything"
+      },
+      {
+        "uid": "533-1066-0010",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 6.78,
+        "decode_s": 1.205,
+        "rtf": 0.178,
+        "wer": 0.0,
+        "hyp": "Put on heavy shoes and some old dark clothes and make up your mind not to be surprised at anything"
+      },
+      {
+        "uid": "533-1066-0010",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 6.78,
+        "decode_s": 1.24,
+        "rtf": 0.183,
+        "wer": 5.0,
+        "hyp": "Put on heavy shoes and some old dark clothes and make up your mind not to be surprised with anything"
+      },
+      {
+        "uid": "533-1066-0010",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 6.78,
+        "decode_s": 1.185,
+        "rtf": 0.175,
+        "wer": 25.0,
+        "hyp": "I put on heavy shoes and some old art gloves and make up your mind not to be surprised as"
+      },
+      {
+        "uid": "533-131556-0008",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 5.29,
+        "decode_s": 1.026,
+        "rtf": 0.194,
+        "wer": 58.33,
+        "hyp": "You may go on Millicent until following a while. Millicent point."
+      },
+      {
+        "uid": "533-131556-0008",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 5.29,
+        "decode_s": 1.095,
+        "rtf": 0.207,
+        "wer": 58.33,
+        "hyp": "You can make old Millicent, but you'll follow in a while. Millicent went."
+      },
+      {
+        "uid": "533-131556-0008",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 5.29,
+        "decode_s": 1.064,
+        "rtf": 0.201,
+        "wer": 41.67,
+        "hyp": "You may go on Millicent, but you'll follow in a while. Millicent went."
+      },
+      {
+        "uid": "533-131556-0008",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 5.29,
+        "decode_s": 1.265,
+        "rtf": 0.239,
+        "wer": 100.0,
+        "hyp": "It's gonna make old Millicent. It's just following a while. Walk Millicent's way after."
+      },
+      {
+        "uid": "533-1066-0007",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 8.32,
+        "decode_s": 1.099,
+        "rtf": 0.132,
+        "wer": 0.0,
+        "hyp": "I mean, he persisted. Do you feel as though you could go through with something rather unusual?"
+      },
+      {
+        "uid": "533-1066-0007",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 8.32,
+        "decode_s": 1.134,
+        "rtf": 0.136,
+        "wer": 0.0,
+        "hyp": "I mean, he persisted. Do you feel as though you could go through with something rather unusual?"
+      },
+      {
+        "uid": "533-1066-0007",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 8.32,
+        "decode_s": 1.192,
+        "rtf": 0.143,
+        "wer": 0.0,
+        "hyp": "I mean, he persisted. Do you feel as though you could go through with something rather unusual?"
+      },
+      {
+        "uid": "533-1066-0007",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 8.32,
+        "decode_s": 1.257,
+        "rtf": 0.151,
+        "wer": 0.0,
+        "hyp": "I mean, he persisted. Do you feel as though you could go through with something rather unusual?"
+      }
+    ],
+    "total_audio_s": 1198.0,
+    "total_decode_s": 192.0,
+    "overall_rtf": 0.16
+  },
+  "distil_small": {
+    "model": "distil_small",
+    "label": "Distil-Whisper small.en (faster-whisper, int8)",
+    "load_s": 4.9,
+    "peak_rss_mb": 811,
+    "rows": [
+      {
+        "uid": "1995-1826-0013",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 8.77,
+        "decode_s": 3.359,
+        "rtf": 0.383,
+        "wer": 0.0,
+        "hyp": "So for the hundredth time she was thinking today as she walked alone up the lane back of the barn and then slowly down through the bottoms"
+      },
+      {
+        "uid": "1995-1826-0013",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 8.77,
+        "decode_s": 3.356,
+        "rtf": 0.383,
+        "wer": 0.0,
+        "hyp": "So for the hundredth time she was thinking today as she walked alone up the lane back of the barn and then slowly down through the bottoms."
+      },
+      {
+        "uid": "1995-1826-0013",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 8.77,
+        "decode_s": 3.452,
+        "rtf": 0.394,
+        "wer": 3.7,
+        "hyp": "So for the hundredth time she was thinking today, as she walked alone up the lane back of the barn and then slowly down through the bottom."
+      },
+      {
+        "uid": "1995-1826-0013",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 8.77,
+        "decode_s": 3.247,
+        "rtf": 0.37,
+        "wer": 18.52,
+        "hyp": "So for the hundred times she was thinking today, as she walked alone, up the lane, back of the barn, and then slowly down through the barn, I was..."
+      },
+      {
+        "uid": "1995-1826-0011",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 8.94,
+        "decode_s": 3.082,
+        "rtf": 0.345,
+        "wer": 0.0,
+        "hyp": "Here she was teaching dirty children and the smell of confused odors and bodily perspiration was to her at times unbearable."
+      },
+      {
+        "uid": "1995-1826-0011",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 8.94,
+        "decode_s": 3.285,
+        "rtf": 0.367,
+        "wer": 0.0,
+        "hyp": "Here she was teaching dirty children and the smell of confused odors and bodily perspiration was to her at times unbearable."
+      },
+      {
+        "uid": "1995-1826-0011",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 8.94,
+        "decode_s": 3.078,
+        "rtf": 0.344,
+        "wer": 4.76,
+        "hyp": "Here she was teaching dirty children in the smell of confused odors and bodily perspiration was to her at times unbearable."
+      },
+      {
+        "uid": "1995-1826-0011",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 8.94,
+        "decode_s": 3.081,
+        "rtf": 0.345,
+        "wer": 0.0,
+        "hyp": "Here she was teaching dirty children and the smell of confused odors and bodily perspiration was to her at times unbearable."
+      },
+      {
+        "uid": "1995-1837-0016",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 7.19,
+        "decode_s": 3.133,
+        "rtf": 0.436,
+        "wer": 5.88,
+        "hyp": "For one long moment he paused, stupid, agape, with utter amazement, then leaned dizzily against the tree."
+      },
+      {
+        "uid": "1995-1837-0016",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 7.19,
+        "decode_s": 3.156,
+        "rtf": 0.439,
+        "wer": 17.65,
+        "hyp": "But one long moment he paused, stupid, agate, with utter amazement, then leaned dizzily against the tree."
+      },
+      {
+        "uid": "1995-1837-0016",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 7.19,
+        "decode_s": 3.132,
+        "rtf": 0.436,
+        "wer": 5.88,
+        "hyp": "For one long moment he paused, stupid, agape, with utter amazement, then leaned dizzily against the tree."
+      },
+      {
+        "uid": "1995-1837-0016",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 7.19,
+        "decode_s": 2.766,
+        "rtf": 0.385,
+        "wer": 23.53,
+        "hyp": "For one long moment he caused stupid, agape, with utter amazement, then dizzily against the dream."
+      },
+      {
+        "uid": "1995-1826-0009",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 7.57,
+        "decode_s": 2.652,
+        "rtf": 0.35,
+        "wer": 0.0,
+        "hyp": "You ought to know John if I teach Negroes I'll scarcely see much of people in my own class"
+      },
+      {
+        "uid": "1995-1826-0009",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 7.57,
+        "decode_s": 2.737,
+        "rtf": 0.362,
+        "wer": 0.0,
+        "hyp": "You ought to know John if I teach Negroes I'll scarcely see much of people in my own class"
+      },
+      {
+        "uid": "1995-1826-0009",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 7.57,
+        "decode_s": 2.971,
+        "rtf": 0.393,
+        "wer": 0.0,
+        "hyp": "You ought to know John if I teach Negroes I'll scarcely see much of people in my own class"
+      },
+      {
+        "uid": "1995-1826-0009",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 7.57,
+        "decode_s": 2.92,
+        "rtf": 0.386,
+        "wer": 10.53,
+        "hyp": "You ought to know John, that I teach Negroes how scarcely see much of people in my own class."
+      },
+      {
+        "uid": "1188-133604-0041",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 10.07,
+        "decode_s": 2.867,
+        "rtf": 0.285,
+        "wer": 11.11,
+        "hyp": "It is a gleaner bringing down her one sheaf of corn to an old water mill, itself mossy in rent, scarcely able to get its stones to turn."
+      },
+      {
+        "uid": "1188-133604-0041",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 10.07,
+        "decode_s": 2.846,
+        "rtf": 0.283,
+        "wer": 14.81,
+        "hyp": "It is a gleaner bringing down her one sheath of corn to an old water mill, itself mossy in rent, scarcely able to get its stones to turn."
+      },
+      {
+        "uid": "1188-133604-0041",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 10.07,
+        "decode_s": 3.092,
+        "rtf": 0.307,
+        "wer": 7.41,
+        "hyp": "It is a gleaner bringing down her one sheaf of corn to an old water mill, itself mossy and rent, scarcely able to get its stones to turn."
+      },
+      {
+        "uid": "1188-133604-0041",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 10.07,
+        "decode_s": 3.187,
+        "rtf": 0.317,
+        "wer": 25.93,
+        "hyp": "It is a gleaner bringing down her one sheaf of someone to an old water mill, itself moss and rent, and is seriously able to get its stones to turn."
+      },
+      {
+        "uid": "1188-133604-0032",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 10.98,
+        "decode_s": 2.975,
+        "rtf": 0.271,
+        "wer": 10.34,
+        "hyp": "It is only a pencil outlined by Edward Burns in illustration of the story of Psyche. It is the introduction of Psyche after all her troubles into heaven."
+      },
+      {
+        "uid": "1188-133604-0032",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 10.98,
+        "decode_s": 3.156,
+        "rtf": 0.287,
+        "wer": 10.34,
+        "hyp": "It is only a pencil outlined by Edward Burns in illustration of the story of Psyche. It is the introduction of Psyche, after all her troubles, into heaven."
+      },
+      {
+        "uid": "1188-133604-0032",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 10.98,
+        "decode_s": 2.93,
+        "rtf": 0.267,
+        "wer": 6.9,
+        "hyp": "It is only a pencil outline by Edward Burns in illustration of the story of Psyche. It is the introduction of Psyche, after all her troubles, into heaven."
+      },
+      {
+        "uid": "1188-133604-0032",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 10.98,
+        "decode_s": 2.605,
+        "rtf": 0.237,
+        "wer": 6.9,
+        "hyp": "There's only a pencil outline by Edward Burne Jones in illustration of the story of Psyche. It is the introduction of Psyche, after all her troubles, into heaven."
+      },
+      {
+        "uid": "1188-133604-0001",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 9.04,
+        "decode_s": 2.848,
+        "rtf": 0.315,
+        "wer": 5.56,
+        "hyp": "They unite every quality. And sometimes you will find me referring to them as colorists, sometimes as kioskurists."
+      },
+      {
+        "uid": "1188-133604-0001",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 9.04,
+        "decode_s": 2.825,
+        "rtf": 0.312,
+        "wer": 5.56,
+        "hyp": "They unite every quality. And sometimes you will find me referring to them as colorists, sometimes as Kiaraskurists."
+      },
+      {
+        "uid": "1188-133604-0001",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 9.04,
+        "decode_s": 3.234,
+        "rtf": 0.358,
+        "wer": 11.11,
+        "hyp": "They unite every quality. And sometimes you will find me referring to them as colorists, sometimes as Kiara skewers."
+      },
+      {
+        "uid": "1188-133604-0001",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 9.04,
+        "decode_s": 3.297,
+        "rtf": 0.365,
+        "wer": 27.78,
+        "hyp": "They unite every quality, and sometimes you will finally refer to them as colorists, sometimes as tiara scurists."
+      },
+      {
+        "uid": "1188-133604-0000",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 10.72,
+        "decode_s": 3.355,
+        "rtf": 0.313,
+        "wer": 10.53,
+        "hyp": "You will find me continually speaking of four men, Tishin, Holbein, Turner, and Tinteret, in almost the same terms."
+      },
+      {
+        "uid": "1188-133604-0000",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 10.72,
+        "decode_s": 3.142,
+        "rtf": 0.293,
+        "wer": 10.53,
+        "hyp": "You will find me continually speaking of four men, Titian, Hobine, Turner, and Tyntaret, in almost the same terms."
+      },
+      {
+        "uid": "1188-133604-0000",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 10.72,
+        "decode_s": 2.973,
+        "rtf": 0.277,
+        "wer": 10.53,
+        "hyp": "You will find me continually speaking of four men, Titian, Holbein, Turner, and Tinteret, in almost the same times."
+      },
+      {
+        "uid": "1188-133604-0000",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 10.72,
+        "decode_s": 3.162,
+        "rtf": 0.295,
+        "wer": 10.53,
+        "hyp": "You will find me continually speaking of four men, Titian, Holbein, Turner, and Tyntorette in almost the same times."
+      },
+      {
+        "uid": "4077-13751-0002",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 9.75,
+        "decode_s": 3.063,
+        "rtf": 0.314,
+        "wer": 4.55,
+        "hyp": "Instead of but six regularly affiliated members, and at most two score of adherence, the organization numbers today many hundred thousand souls."
+      },
+      {
+        "uid": "4077-13751-0002",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 9.75,
+        "decode_s": 2.928,
+        "rtf": 0.3,
+        "wer": 9.09,
+        "hyp": "Instead of but six regularly affiliated members, and at most two square adherents, the organization numbers today many hundred thousand souls."
+      },
+      {
+        "uid": "4077-13751-0002",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 9.75,
+        "decode_s": 2.662,
+        "rtf": 0.273,
+        "wer": 4.55,
+        "hyp": "Instead of but six regularly affiliated members and at most two score of appearance, the organization numbers today many hundred thousand souls."
+      },
+      {
+        "uid": "4077-13751-0002",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 9.75,
+        "decode_s": 3.07,
+        "rtf": 0.315,
+        "wer": 4.55,
+        "hyp": "Instead of but six regularly affiliated members and at most two score of adherence, the organization numbers today many hundred thousand souls."
+      },
+      {
+        "uid": "4077-13751-0008",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 10.55,
+        "decode_s": 3.136,
+        "rtf": 0.297,
+        "wer": 0.0,
+        "hyp": "It is notable that the Indian tribes have generally regarded the religion of the Latter-day Saints with favor, seeing in the Book of Mormon striking agreement with their own traditions."
+      },
+      {
+        "uid": "4077-13751-0008",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 10.55,
+        "decode_s": 2.979,
+        "rtf": 0.282,
+        "wer": 3.23,
+        "hyp": "It is notable that the Indian tribes have generally regarded their religion of the Latter-day Saints with favor, seeing in the Book of Mormon striking agreement with their own traditions."
+      },
+      {
+        "uid": "4077-13751-0008",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 10.55,
+        "decode_s": 2.867,
+        "rtf": 0.272,
+        "wer": 0.0,
+        "hyp": "It is notable that the Indian tribes have generally regarded the religion of the Latter-day Saints with favor, seeing in the Book of Mormon striking agreement with their own traditions."
+      },
+      {
+        "uid": "4077-13751-0008",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 10.55,
+        "decode_s": 2.991,
+        "rtf": 0.283,
+        "wer": 0.0,
+        "hyp": "It is notable that the Indian tribes have generally regarded the religion of the latter-day saints with favor, seeing in the Book of Mormon striking agreement with their own traditions."
+      },
+      {
+        "uid": "4077-13754-0014",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 10.97,
+        "decode_s": 2.986,
+        "rtf": 0.272,
+        "wer": 0.0,
+        "hyp": "The people contested these measures one by one in the courts, presenting in case after case the different phases of the subject, and urging the unconstitutionality of the measure."
+      },
+      {
+        "uid": "4077-13754-0014",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 10.97,
+        "decode_s": 3.16,
+        "rtf": 0.288,
+        "wer": 0.0,
+        "hyp": "The people contested these measures one by one in the courts, presenting in case after case the different phases of the subject, and urging the unconstitutionality of the measure."
+      },
+      {
+        "uid": "4077-13754-0014",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 10.97,
+        "decode_s": 3.057,
+        "rtf": 0.279,
+        "wer": 0.0,
+        "hyp": "The people contested these measures one by one in the courts, presenting in case after case the different phases of the subject, and urging the unconstitutionality of the measure."
+      },
+      {
+        "uid": "4077-13754-0014",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 10.97,
+        "decode_s": 3.133,
+        "rtf": 0.286,
+        "wer": 0.0,
+        "hyp": "The people contested these measures one by one in the courts, presenting in case after case the different phases of the subject and urging the unconstitutionality of the measure."
+      },
+      {
+        "uid": "4077-13751-0020",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 10.29,
+        "decode_s": 3.352,
+        "rtf": 0.326,
+        "wer": 15.38,
+        "hyp": "As a sample of the press comments against the brutality of the Missourians, I quote a paragraph from the Quincy Argus, March 16th 1839."
+      },
+      {
+        "uid": "4077-13751-0020",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 10.29,
+        "decode_s": 3.091,
+        "rtf": 0.3,
+        "wer": 15.38,
+        "hyp": "As a sample of the press comments against the brutality of the Missourians I quote a paragraph from the Quincy Argus, March 16th 1839."
+      },
+      {
+        "uid": "4077-13751-0020",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 10.29,
+        "decode_s": 3.285,
+        "rtf": 0.319,
+        "wer": 15.38,
+        "hyp": "As a sample of the press comments against the brutality of the Missourians I quote a paragraph from the Quincy Argus, March 16th, 1839."
+      },
+      {
+        "uid": "4077-13751-0020",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 10.29,
+        "decode_s": 3.571,
+        "rtf": 0.347,
+        "wer": 23.08,
+        "hyp": "As a sample of the press comments against the brutality of the Assyrians, I quote the paragraph from the Quincy Argus, March 16th, 1839."
+      },
+      {
+        "uid": "3575-170457-0003",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 7.59,
+        "decode_s": 2.937,
+        "rtf": 0.387,
+        "wer": 3.85,
+        "hyp": "Surely it must be because we are in danger of loving each other too well, of losing sight of the Creator and idolatry of the creature."
+      },
+      {
+        "uid": "3575-170457-0003",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 7.59,
+        "decode_s": 3.054,
+        "rtf": 0.402,
+        "wer": 7.69,
+        "hyp": "Surely it must be because we are in danger of lugging each other too well, of losing sight of the creator and idolatry of the creature."
+      },
+      {
+        "uid": "3575-170457-0003",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 7.59,
+        "decode_s": 2.955,
+        "rtf": 0.389,
+        "wer": 3.85,
+        "hyp": "Surely it must be because we are in danger of loving each other too well, of losing sight of the creator and idolatry of the creature."
+      },
+      {
+        "uid": "3575-170457-0003",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 7.59,
+        "decode_s": 2.619,
+        "rtf": 0.345,
+        "wer": 23.08,
+        "hyp": "Surely it must be because we're in danger of loving each other too well, of losing sight of the creator and I don't achieve the creature."
+      },
+      {
+        "uid": "3575-170457-0020",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 8.64,
+        "decode_s": 3.07,
+        "rtf": 0.355,
+        "wer": 3.23,
+        "hyp": "I know the first letter I wrote to you is all senseless trash from beginning to end, but I am not altogether the idle dreaming being it would seem to denote."
+      },
+      {
+        "uid": "3575-170457-0020",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 8.64,
+        "decode_s": 2.905,
+        "rtf": 0.336,
+        "wer": 6.45,
+        "hyp": "I know the first letter I wrote to you was all since this trash from beginning to end, but I am not altogether the idle dreaming being, it would seem to denote."
+      },
+      {
+        "uid": "3575-170457-0020",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 8.64,
+        "decode_s": 2.798,
+        "rtf": 0.324,
+        "wer": 0.0,
+        "hyp": "I know the first letter I wrote to you was all senseless trash from beginning to end, but I am not altogether the idle dreaming being, it would seem to denote."
+      },
+      {
+        "uid": "3575-170457-0020",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 8.64,
+        "decode_s": 3.042,
+        "rtf": 0.352,
+        "wer": 19.35,
+        "hyp": "I know the first letter I wrote too with all forms of trash from beginning to end, but I am not altogether the idle dreaming mean, it would seem to denote."
+      },
+      {
+        "uid": "3575-170457-0055",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 11.85,
+        "decode_s": 3.225,
+        "rtf": 0.272,
+        "wer": 2.86,
+        "hyp": "Still, her heart had received shock in the perception of Anne's delicacy. And all these holidays she watched over her with the longing fond anxiety, which is so full of sudden pangs of fear."
+      },
+      {
+        "uid": "3575-170457-0055",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 11.85,
+        "decode_s": 3.24,
+        "rtf": 0.273,
+        "wer": 5.71,
+        "hyp": "Still, her heart had received a shock in the perception of Anne's delicacy. In all these holidays she watched over her with the longing fond anxiety, which is so full of sudden pains of fear."
+      },
+      {
+        "uid": "3575-170457-0055",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 11.85,
+        "decode_s": 3.885,
+        "rtf": 0.328,
+        "wer": 2.86,
+        "hyp": "Still her heart had received a shock in the perception of Anne's delicacy. In all these holidays she watched over her with the longing fond anxiety, which is so full of sudden pangs of fear."
+      },
+      {
+        "uid": "3575-170457-0055",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 11.85,
+        "decode_s": 3.575,
+        "rtf": 0.302,
+        "wer": 22.86,
+        "hyp": "Still, her heart had received a shock in the perception of Anne's delicacy, and all these holidays she watched over her with the long and fond of her idol which is so full of sudden things this year."
+      },
+      {
+        "uid": "3575-170457-0044",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 9.72,
+        "decode_s": 3.259,
+        "rtf": 0.335,
+        "wer": 3.7,
+        "hyp": "After this disappointment, I never dare reckon with certainty on the enjoyment of a pleasure again. It seems as if some fatalities stood between you and me."
+      },
+      {
+        "uid": "3575-170457-0044",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 9.72,
+        "decode_s": 3.448,
+        "rtf": 0.355,
+        "wer": 3.7,
+        "hyp": "After this disappointment, I never dare reckon with certainty on the enjoyment of a pleasure again. It seems as if some fatalities stood between you and me."
+      },
+      {
+        "uid": "3575-170457-0044",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 9.72,
+        "decode_s": 3.144,
+        "rtf": 0.324,
+        "wer": 11.11,
+        "hyp": "After this disappointment, I never dare reckon with certainty on the enjoyment of a pleasure again. It seems as if some fatalities stood between me."
+      },
+      {
+        "uid": "3575-170457-0044",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 9.72,
+        "decode_s": 3.211,
+        "rtf": 0.33,
+        "wer": 14.81,
+        "hyp": "After this disappointment I never dare reckon with certainty on the enjoyment of a pleasure again. It seems as if some fatalities stood between the moon."
+      },
+      {
+        "uid": "3570-5695-0000",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 4.83,
+        "decode_s": 2.949,
+        "rtf": 0.61,
+        "wer": 0.0,
+        "hyp": "In a general way, though not wholly nor consistently, these two groups coincide."
+      },
+      {
+        "uid": "3570-5695-0000",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 4.83,
+        "decode_s": 2.992,
+        "rtf": 0.619,
+        "wer": 0.0,
+        "hyp": "In a general way, though not wholly nor consistently, these two groups coincide."
+      },
+      {
+        "uid": "3570-5695-0000",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 4.83,
+        "decode_s": 2.996,
+        "rtf": 0.62,
+        "wer": 0.0,
+        "hyp": "In a general way, though not wholly nor consistently, these two groups coincide."
+      },
+      {
+        "uid": "3570-5695-0000",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 4.83,
+        "decode_s": 3.119,
+        "rtf": 0.646,
+        "wer": 0.0,
+        "hyp": "In a general way, though not wholly nor consistently, these two groups coincide."
+      },
+      {
+        "uid": "3570-5696-0002",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 7.51,
+        "decode_s": 3.218,
+        "rtf": 0.428,
+        "wer": 19.05,
+        "hyp": "Are the circumstances permitting that instinct disposes men to look with favour upon productive efficiency and on whatever it is of human use?"
+      },
+      {
+        "uid": "3570-5696-0002",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 7.51,
+        "decode_s": 3.164,
+        "rtf": 0.421,
+        "wer": 23.81,
+        "hyp": "are the circumstances committing that instinct disposes men to live with favour upon productive efficiency and on whatever is of human use."
+      },
+      {
+        "uid": "3570-5696-0002",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 7.51,
+        "decode_s": 3.195,
+        "rtf": 0.425,
+        "wer": 14.29,
+        "hyp": "are the circumstances permitting that instinct disposes men to look with favour upon productive efficiency and on whatever is of human use."
+      },
+      {
+        "uid": "3570-5696-0002",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 7.51,
+        "decode_s": 3.204,
+        "rtf": 0.427,
+        "wer": 38.1,
+        "hyp": "Are the circumstances committing that instant disposes men to look with favour upon productive efficiency and on what every issue of human use?"
+      },
+      {
+        "uid": "3570-5695-0004",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 10.6,
+        "decode_s": 3.354,
+        "rtf": 0.316,
+        "wer": 0.0,
+        "hyp": "If beauty or comfort is achieved, and it is a more or less fortuitous circumstance, if they are, they must be achieved by means and methods that commend themselves to the great economic law of wasted effort."
+      },
+      {
+        "uid": "3570-5695-0004",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 10.6,
+        "decode_s": 3.408,
+        "rtf": 0.321,
+        "wer": 5.41,
+        "hyp": "If future comfort is achieved and it is a more or less fortuitous circumstance, if they are, they must be achieved by means and methods that commend themselves to the great economic law of wasted effort."
+      },
+      {
+        "uid": "3570-5695-0004",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 10.6,
+        "decode_s": 3.539,
+        "rtf": 0.334,
+        "wer": 2.7,
+        "hyp": "If beauty or comfort is achieved, and it is a more or less fortuitous circumstance, if they are, they must be achieved by means and methods that commend themselves to the great economic law of wasted assets."
+      },
+      {
+        "uid": "3570-5695-0004",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 10.6,
+        "decode_s": 3.433,
+        "rtf": 0.324,
+        "wer": 10.81,
+        "hyp": "This beauty or comfort is achieved and it is a more or less fortuitous circumstance if they fail. They must be achieved by means and methods that commend themselves to the great economic law of waste's asset."
+      },
+      {
+        "uid": "3570-5694-0001",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 5.67,
+        "decode_s": 2.768,
+        "rtf": 0.488,
+        "wer": 0.0,
+        "hyp": "The utility of consumption as an evidence of wealth is to be classed as a derivative growth."
+      },
+      {
+        "uid": "3570-5694-0001",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 5.67,
+        "decode_s": 2.78,
+        "rtf": 0.49,
+        "wer": 5.88,
+        "hyp": "The utility of consumption as an evidence of wealth is to be cast as a derivative growth."
+      },
+      {
+        "uid": "3570-5694-0001",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 5.67,
+        "decode_s": 3.323,
+        "rtf": 0.586,
+        "wer": 5.88,
+        "hyp": "The utility of consumption as an evidence of wealth is to be cast as a derivative growth."
+      },
+      {
+        "uid": "3570-5694-0001",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 5.67,
+        "decode_s": 3.02,
+        "rtf": 0.533,
+        "wer": 11.76,
+        "hyp": "The utility of consumption as an evidence of growth is to be passed as a derivative growth."
+      },
+      {
+        "uid": "367-130732-0016",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 4.69,
+        "decode_s": 2.873,
+        "rtf": 0.613,
+        "wer": 6.25,
+        "hyp": "Take the meat of one large crab, scraping out all the fat from the shell."
+      },
+      {
+        "uid": "367-130732-0016",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 4.69,
+        "decode_s": 2.943,
+        "rtf": 0.628,
+        "wer": 12.5,
+        "hyp": "Take the meat of one large crab, scraping out all the fat for the shell."
+      },
+      {
+        "uid": "367-130732-0016",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 4.69,
+        "decode_s": 2.785,
+        "rtf": 0.594,
+        "wer": 25.0,
+        "hyp": "Take the meat of one large cat scraping out all the back of the shell."
+      },
+      {
+        "uid": "367-130732-0016",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 4.69,
+        "decode_s": 2.899,
+        "rtf": 0.618,
+        "wer": 50.0,
+        "hyp": "Take the meat of one large cat who's giving you all the bags of the show."
+      },
+      {
+        "uid": "367-130732-0022",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 7.45,
+        "decode_s": 3.238,
+        "rtf": 0.435,
+        "wer": 7.14,
+        "hyp": "So far it has been used mostly for garnishment of other dishes and it is only recently that the whole brow has been making a specialty of them"
+      },
+      {
+        "uid": "367-130732-0022",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 7.45,
+        "decode_s": 3.143,
+        "rtf": 0.422,
+        "wer": 7.14,
+        "hyp": "So far it has been used mostly for garnishment of other dishes and it is only recently that the whole brow has been making a specialty of them."
+      },
+      {
+        "uid": "367-130732-0022",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 7.45,
+        "decode_s": 3.13,
+        "rtf": 0.42,
+        "wer": 17.86,
+        "hyp": "So far it has been used mostly for garnishment about the dishes and it is only recently that the hope brow has been making the specialty of them."
+      },
+      {
+        "uid": "367-130732-0022",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 7.45,
+        "decode_s": 3.332,
+        "rtf": 0.447,
+        "wer": 10.71,
+        "hyp": "So far it has been used mostly for garnishment of other dishes and it is only recently that the whole brow has been making the specialty of them."
+      },
+      {
+        "uid": "367-293981-0001",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 4.96,
+        "decode_s": 3.126,
+        "rtf": 0.63,
+        "wer": 0.0,
+        "hyp": "I say so, continued Don Quixote, because I hate taking away anyone's good name."
+      },
+      {
+        "uid": "367-293981-0001",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 4.96,
+        "decode_s": 3.259,
+        "rtf": 0.657,
+        "wer": 7.14,
+        "hyp": "I say so, continued Don Quixote, because I hate taking away anyone's good need."
+      },
+      {
+        "uid": "367-293981-0001",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 4.96,
+        "decode_s": 3.216,
+        "rtf": 0.648,
+        "wer": 0.0,
+        "hyp": "I say so continued Don Quixote because I hate taking away anyone's good name."
+      },
+      {
+        "uid": "367-293981-0001",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 4.96,
+        "decode_s": 3.016,
+        "rtf": 0.608,
+        "wer": 50.0,
+        "hyp": "I say something to continue don't go away, because I hate taking away anyone's good need."
+      },
+      {
+        "uid": "367-130732-0012",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 8.44,
+        "decode_s": 3.422,
+        "rtf": 0.405,
+        "wer": 0.0,
+        "hyp": "I say, come to San Francisco, advisedly, for while the crab is found all along the coast it is prepared nowhere so deliciously as in San Francisco."
+      },
+      {
+        "uid": "367-130732-0012",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 8.44,
+        "decode_s": 3.266,
+        "rtf": 0.387,
+        "wer": 0.0,
+        "hyp": "I say, come to San Francisco, advisedly, for while the crab is found all along the coast, it is prepared nowhere so deliciously as in San Francisco."
+      },
+      {
+        "uid": "367-130732-0012",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 8.44,
+        "decode_s": 3.339,
+        "rtf": 0.396,
+        "wer": 22.22,
+        "hyp": "I say, come to San Francisco and vicely, for while the Travis found all along the coast and is prepared nowhere so deliciously as San Francisco."
+      },
+      {
+        "uid": "367-130732-0012",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 8.44,
+        "decode_s": 3.419,
+        "rtf": 0.405,
+        "wer": 14.81,
+        "hyp": "I say, come to San Francisco and wisely, for while the crab is found all along because it is prepared nowhere so deliciously as in San Francisco."
+      },
+      {
+        "uid": "7902-96591-0014",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 9.71,
+        "decode_s": 3.508,
+        "rtf": 0.361,
+        "wer": 0.0,
+        "hyp": "The kick he had received was a foretaste of what he might expect, and after a little consideration he came to the conclusion that his duty was to escape and get back to the cutter as quickly as he could."
+      },
+      {
+        "uid": "7902-96591-0014",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 9.71,
+        "decode_s": 3.629,
+        "rtf": 0.374,
+        "wer": 0.0,
+        "hyp": "The kick he had received was a foretaste of what he might expect, and after a little consideration he came to the conclusion that his duty was to escape, and get back to the cutter as quickly as he could."
+      },
+      {
+        "uid": "7902-96591-0014",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 9.71,
+        "decode_s": 3.586,
+        "rtf": 0.369,
+        "wer": 0.0,
+        "hyp": "The kick he had received was a foretaste of what he might expect, and after a little consideration he came to the conclusion that his duty was to escape, and get back to the cutter as quickly as he could."
+      },
+      {
+        "uid": "7902-96591-0014",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 9.71,
+        "decode_s": 3.355,
+        "rtf": 0.346,
+        "wer": 7.5,
+        "hyp": "The kick he had received was a foretaste of what he might expect, and after a little consideration he came to the conclusion that his duty was to escape and get back to the cutter as it would be as he could."
+      },
+      {
+        "uid": "7902-96592-0032",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 4.33,
+        "decode_s": 2.819,
+        "rtf": 0.651,
+        "wer": 23.08,
+        "hyp": "No, I can't part with that. Ha ha ha, left the board yearingly."
+      },
+      {
+        "uid": "7902-96592-0032",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 4.33,
+        "decode_s": 2.879,
+        "rtf": 0.665,
+        "wer": 53.85,
+        "hyp": "No, I can't part with that. Left boys hearing me."
+      },
+      {
+        "uid": "7902-96592-0032",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 4.33,
+        "decode_s": 3.081,
+        "rtf": 0.712,
+        "wer": 53.85,
+        "hyp": "No, I can't part with that. You have to board you or anything."
+      },
+      {
+        "uid": "7902-96592-0032",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 4.33,
+        "decode_s": 2.879,
+        "rtf": 0.665,
+        "wer": 30.77,
+        "hyp": "No, I can't part with that. Ha ha ha. Boy during that."
+      },
+      {
+        "uid": "7902-96591-0015",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 9.61,
+        "decode_s": 3.124,
+        "rtf": 0.325,
+        "wer": 3.12,
+        "hyp": "To do this he must scheme, lie hid till morning, then make for the nearest point, a signal for help, unless a boat's crew were already searching for him. How to escape?"
+      },
+      {
+        "uid": "7902-96591-0015",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 9.61,
+        "decode_s": 2.901,
+        "rtf": 0.302,
+        "wer": 3.12,
+        "hyp": "To do this he must scheme, lie hid till morning, then make for the nearest point, signal for help, unless a boat's crew were already searching for him. How to escape?"
+      },
+      {
+        "uid": "7902-96591-0015",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 9.61,
+        "decode_s": 3.288,
+        "rtf": 0.342,
+        "wer": 28.12,
+        "hyp": "To do this he must scheme, while I hid till the morning and make for the nearest point, a signal for health, and also boats cruel were already searching for him. How to escape?"
+      },
+      {
+        "uid": "7902-96591-0015",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 9.61,
+        "decode_s": 3.303,
+        "rtf": 0.344,
+        "wer": 28.12,
+        "hyp": "To do this he must scheme, lie him till morning, and make for the nearest point a signal for help. Once a boat's crew will already surge in the ground. How to escape?"
+      },
+      {
+        "uid": "7902-96592-0029",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 5.37,
+        "decode_s": 2.863,
+        "rtf": 0.533,
+        "wer": 10.0,
+        "hyp": "He divided the paint and produced a few squeaks and grading sounds as he realized that the attempt was madness."
+      },
+      {
+        "uid": "7902-96592-0029",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 5.37,
+        "decode_s": 3.151,
+        "rtf": 0.587,
+        "wer": 10.0,
+        "hyp": "He divided the paint and produced a few squeaks and grating sounds as he realized the attempt was madness."
+      },
+      {
+        "uid": "7902-96592-0029",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 5.37,
+        "decode_s": 3.042,
+        "rtf": 0.566,
+        "wer": 10.0,
+        "hyp": "He divided the paint and produced a few squeaks and grating sounds as he realized the attempt was madness."
+      },
+      {
+        "uid": "7902-96592-0029",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 5.37,
+        "decode_s": 2.861,
+        "rtf": 0.533,
+        "wer": 45.0,
+        "hyp": "He divided the paint and produced a few scoops and grain towns as he realized he simply managed."
+      },
+      {
+        "uid": "6070-86744-0027",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 10.41,
+        "decode_s": 3.222,
+        "rtf": 0.309,
+        "wer": 3.45,
+        "hyp": "And this time it must be confessed to that, contrary to the usual state of affairs in discussions between the young men, the effective arguments were all on Albert's side."
+      },
+      {
+        "uid": "6070-86744-0027",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 10.41,
+        "decode_s": 3.224,
+        "rtf": 0.31,
+        "wer": 6.9,
+        "hyp": "And this time, it must be confessed to that, contrary to the usual state of affairs and discussions between the young men, the effective arguments were all on Albert's side."
+      },
+      {
+        "uid": "6070-86744-0027",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 10.41,
+        "decode_s": 3.197,
+        "rtf": 0.307,
+        "wer": 24.14,
+        "hyp": "And this time it must become first that, contrary to the usual stated affairs and discussions between the young men, the effective arguments for all on our side."
+      },
+      {
+        "uid": "6070-86744-0027",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 10.41,
+        "decode_s": 3.234,
+        "rtf": 0.311,
+        "wer": 24.14,
+        "hyp": "And this time it must become fast-dised, constantly to the usual stage of affairs and decisions between the young men. The effective arguments were all on Albert's side."
+      },
+      {
+        "uid": "6070-86744-0010",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 5.67,
+        "decode_s": 3.086,
+        "rtf": 0.544,
+        "wer": 0.0,
+        "hyp": "For France? No, for Venice, I shall remain in Italy for another year or two."
+      },
+      {
+        "uid": "6070-86744-0010",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 5.67,
+        "decode_s": 3.164,
+        "rtf": 0.558,
+        "wer": 0.0,
+        "hyp": "For France? No, for Venice, I shall remain in Italy for another year or two."
+      },
+      {
+        "uid": "6070-86744-0010",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 5.67,
+        "decode_s": 3.143,
+        "rtf": 0.554,
+        "wer": 6.67,
+        "hyp": "For things, no for Venice, I shall remain in Italy for another year or two."
+      },
+      {
+        "uid": "6070-86744-0010",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 5.67,
+        "decode_s": 2.829,
+        "rtf": 0.499,
+        "wer": 40.0,
+        "hyp": "I should remain in Italy for another year or two."
+      },
+      {
+        "uid": "6070-63485-0002",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 10.64,
+        "decode_s": 3.211,
+        "rtf": 0.302,
+        "wer": 0.0,
+        "hyp": "By means of this stratagem they followed so closely that although within a few steps of Sarah and Tom they did not hear them"
+      },
+      {
+        "uid": "6070-63485-0002",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 10.64,
+        "decode_s": 3.131,
+        "rtf": 0.294,
+        "wer": 20.83,
+        "hyp": "By means of this strategy, they followed so closely that, although within few steps of ceremony come, they did not hear them."
+      },
+      {
+        "uid": "6070-63485-0002",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 10.64,
+        "decode_s": 3.163,
+        "rtf": 0.297,
+        "wer": 4.17,
+        "hyp": "By means of this strategy, they followed so closely that, although within a few steps of Sarah and Tom, they did not hear them."
+      },
+      {
+        "uid": "6070-63485-0002",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 10.64,
+        "decode_s": 3.232,
+        "rtf": 0.304,
+        "wer": 50.0,
+        "hyp": "These findings of this tax agenda, they followed so closely that, although the first tax system and taught, they did not hear it."
+      },
+      {
+        "uid": "6070-86745-0013",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 8.14,
+        "decode_s": 3.265,
+        "rtf": 0.401,
+        "wer": 10.53,
+        "hyp": "Pests! I will do nothing of the kind. The moment they come from government you would find them acceptable."
+      },
+      {
+        "uid": "6070-86745-0013",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 8.14,
+        "decode_s": 3.026,
+        "rtf": 0.372,
+        "wer": 10.53,
+        "hyp": "Pests! I will do nothing of the kind. The moment they come from government, you would find them acceptable."
+      },
+      {
+        "uid": "6070-86745-0013",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 8.14,
+        "decode_s": 3.144,
+        "rtf": 0.386,
+        "wer": 10.53,
+        "hyp": "Pest, I will do nothing of the kind, the moment they come from government you would find them acceptable."
+      },
+      {
+        "uid": "6070-86745-0013",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 8.14,
+        "decode_s": 3.642,
+        "rtf": 0.447,
+        "wer": 15.79,
+        "hyp": "Yes, I will do nothing of the kind. The moment they come from government, you will find them acceptable."
+      },
+      {
+        "uid": "533-131562-0001",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 8.45,
+        "decode_s": 3.033,
+        "rtf": 0.359,
+        "wer": 15.0,
+        "hyp": "The kiss of your cabinet desk drawer and whatever else you possess. Say he, rising and holding out his hand."
+      },
+      {
+        "uid": "533-131562-0001",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 8.45,
+        "decode_s": 2.991,
+        "rtf": 0.354,
+        "wer": 15.0,
+        "hyp": "The kiss of your cabinet desk drawer and whatever else you possess. So he, rising and holding out his hand."
+      },
+      {
+        "uid": "533-131562-0001",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 8.45,
+        "decode_s": 2.865,
+        "rtf": 0.339,
+        "wer": 15.0,
+        "hyp": "The kiss of your cabinet desk drawer and whatever else you possess. So he, rising and holding out his hand."
+      },
+      {
+        "uid": "533-131562-0001",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 8.45,
+        "decode_s": 3.082,
+        "rtf": 0.365,
+        "wer": 20.0,
+        "hyp": "The case of your cabinet desk drawer and whatever else you possess. So he, rising and holding out his hands."
+      },
+      {
+        "uid": "533-1066-0010",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 6.78,
+        "decode_s": 2.805,
+        "rtf": 0.414,
+        "wer": 5.0,
+        "hyp": "Put on heavy shoes and some all dark clothes and make up your mind not to be surprised at anything"
+      },
+      {
+        "uid": "533-1066-0010",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 6.78,
+        "decode_s": 3.157,
+        "rtf": 0.466,
+        "wer": 5.0,
+        "hyp": "Put on heavy shoes and some all dark clothes and make up your mind not to be surprised at anything"
+      },
+      {
+        "uid": "533-1066-0010",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 6.78,
+        "decode_s": 3.252,
+        "rtf": 0.48,
+        "wer": 10.0,
+        "hyp": "Put on heavy shoes and some all dark clothes and make up your mind not to be surprised with anything"
+      },
+      {
+        "uid": "533-1066-0010",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 6.78,
+        "decode_s": 3.062,
+        "rtf": 0.452,
+        "wer": 5.0,
+        "hyp": "Put on heavy shoes and some old dark gloves and make up your mind not to be surprised at anything"
+      },
+      {
+        "uid": "533-131556-0008",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 5.29,
+        "decode_s": 3.142,
+        "rtf": 0.594,
+        "wer": 50.0,
+        "hyp": "You may go, Millicent, until following a while. Millicent went."
+      },
+      {
+        "uid": "533-131556-0008",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 5.29,
+        "decode_s": 3.226,
+        "rtf": 0.61,
+        "wer": 50.0,
+        "hyp": "You may go, Millison, until following a while. Millison went."
+      },
+      {
+        "uid": "533-131556-0008",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 5.29,
+        "decode_s": 3.45,
+        "rtf": 0.652,
+        "wer": 33.33,
+        "hyp": "You may go, Millison, but you'll follow in a while. Millicent went."
+      },
+      {
+        "uid": "533-131556-0008",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 5.29,
+        "decode_s": 3.628,
+        "rtf": 0.686,
+        "wer": 66.67,
+        "hyp": "It may go Millison. It's just following a while. Millison's way."
+      },
+      {
+        "uid": "533-1066-0007",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 8.32,
+        "decode_s": 3.807,
+        "rtf": 0.458,
+        "wer": 0.0,
+        "hyp": "I mean he persisted do you feel as though you could go through with something rather unusual?"
+      },
+      {
+        "uid": "533-1066-0007",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 8.32,
+        "decode_s": 3.662,
+        "rtf": 0.44,
+        "wer": 0.0,
+        "hyp": "I mean he persisted. Do you feel as though you could go through with something rather unusual?"
+      },
+      {
+        "uid": "533-1066-0007",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 8.32,
+        "decode_s": 3.362,
+        "rtf": 0.404,
+        "wer": 0.0,
+        "hyp": "I mean, he persisted, do you feel as though you could go through with something rather unusual?"
+      },
+      {
+        "uid": "533-1066-0007",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 8.32,
+        "decode_s": 3.322,
+        "rtf": 0.399,
+        "wer": 0.0,
+        "hyp": "I mean, he persisted, do you feel as though you could go through with something rather unusual?"
+      }
+    ],
+    "total_audio_s": 1198.0,
+    "total_decode_s": 451.5,
+    "overall_rtf": 0.377
+  },
+  "wav2vec2_base": {
+    "model": "wav2vec2_base",
+    "label": "Wav2Vec2 base 960h (transformers, fp32)",
+    "load_s": 12.7,
+    "peak_rss_mb": 1344,
+    "rows": [
+      {
+        "uid": "1995-1826-0013",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 8.77,
+        "decode_s": 0.683,
+        "rtf": 0.078,
+        "wer": 7.41,
+        "hyp": "SO FOR THE HUNDREDTH TIME SHE WAS THINKING TO DAY AS SHE WALKED ALONE UP THE LANE BACK OF THE BARN AND THEN SLOWLY DOWN THROUGH THE BOTTOMS"
+      },
+      {
+        "uid": "1995-1826-0013",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 8.77,
+        "decode_s": 0.685,
+        "rtf": 0.078,
+        "wer": 22.22,
+        "hyp": "SO FOR THE HUNDREDTH TIME SHE WAS THINKING TO DAY AS SHE WALKED HE LRN UP THE LANE BACK OFH THE BARN AND THEN SLOWLY DOWN THROUGH THE BANS"
+      },
+      {
+        "uid": "1995-1826-0013",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 8.77,
+        "decode_s": 0.65,
+        "rtf": 0.074,
+        "wer": 33.33,
+        "hyp": "SO FOR THE HUNDRETH TIME SHE WAS CINTENTO DAY I AS SHE WALKED ALONE ELSE THE LANE BACK OF THE BARN ANDMEAN SLOWLY DOWN THROUGH THE BONES ATER"
+      },
+      {
+        "uid": "1995-1826-0013",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 8.77,
+        "decode_s": 0.611,
+        "rtf": 0.07,
+        "wer": 133.33,
+        "hyp": "ON TO TAP OF THE HUNDY AND I I SHE IS THINKING BAY O  I SHALL I LACK TO YOUR OWN AND EP YOU LAY AT I E ON O O O SAEAS BOUN OF THE NIM WHEN YOU DID"
+      },
+      {
+        "uid": "1995-1826-0011",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 8.94,
+        "decode_s": 0.605,
+        "rtf": 0.068,
+        "wer": 4.76,
+        "hyp": "HERE SHE WAS TEACHING DIRTY CHILDREN IN THE SMELL OF CONFUSED ODORS AND BODILY PERSPIRATION WAS TO HER AT TIMES UNBEARABLE"
+      },
+      {
+        "uid": "1995-1826-0011",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 8.94,
+        "decode_s": 0.899,
+        "rtf": 0.101,
+        "wer": 0.0,
+        "hyp": "HERE SHE WAS TEACHING DIRTY CHILDREN AND THE SMELL OF CONFUSED ODORS AND BODILY PERSPIRATION WAS TO HER AT TIMES UNBEARABLE"
+      },
+      {
+        "uid": "1995-1826-0011",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 8.94,
+        "decode_s": 0.791,
+        "rtf": 0.088,
+        "wer": 38.1,
+        "hyp": "WHIT YEAR SHE WAS TEACHING DIRTY CHILDREN ON A SMELL OF CONFUSED ORDERS AND BODILY CESORATIONS WASNT TO HER A TIMES UNBEARABLE"
+      },
+      {
+        "uid": "1995-1826-0011",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 8.94,
+        "decode_s": 0.686,
+        "rtf": 0.077,
+        "wer": 90.48,
+        "hyp": "NI YEAR SHE WAS TEACHING AT DERING TRANGEMEN I VA WELL OFIN HIS DAUGHTERS AND YAUGHTILY PISPOSTION WHY WAS TO HER AY TIMES UN THER HIM WELTIT"
+      },
+      {
+        "uid": "1995-1837-0016",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 7.19,
+        "decode_s": 0.554,
+        "rtf": 0.077,
+        "wer": 0.0,
+        "hyp": "FOR ONE LONG MOMENT HE PAUSED STUPID AGAPE WITH UTTER AMAZEMENT THEN LEANED DIZZILY AGAINST A TREE"
+      },
+      {
+        "uid": "1995-1837-0016",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 7.19,
+        "decode_s": 0.543,
+        "rtf": 0.076,
+        "wer": 29.41,
+        "hyp": "FOR ONE MONE MOMENT HE PAUSED STOPIND A GAT WITH UTTER AMAZEMENT THEN LEANED DIZZILY AGAINST THE TREE"
+      },
+      {
+        "uid": "1995-1837-0016",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 7.19,
+        "decode_s": 0.534,
+        "rtf": 0.074,
+        "wer": 76.47,
+        "hyp": "OR ONE ONE MOMENT HE PAUSED O E STUPIN A GAYE WITH UTTER AMAZEMENT ON T THEN LAN HER DIZZILY AGAINST THE TREE INEN"
+      },
+      {
+        "uid": "1995-1837-0016",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 7.19,
+        "decode_s": 0.564,
+        "rtf": 0.078,
+        "wer": 141.18,
+        "hyp": "IOL ONE LONG NESSIN Y HARL TAT AS A STUPID A GAYIT AN ATT OR A NAZEMERY SINCE I BEND ON STEATILY IF YORD AN ANY MO"
+      },
+      {
+        "uid": "1995-1826-0009",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 7.57,
+        "decode_s": 0.612,
+        "rtf": 0.081,
+        "wer": 0.0,
+        "hyp": "YOU OUGHT TO KNOW JOHN IF I TEACH NEGROES I'LL SCARCELY SEE MUCH OF PEOPLE IN MY OWN CLASS"
+      },
+      {
+        "uid": "1995-1826-0009",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 7.57,
+        "decode_s": 0.639,
+        "rtf": 0.084,
+        "wer": 10.53,
+        "hyp": "YOU OUGHT TO KNOW JOHN IF IC TEACH NEGROES I'LL SCARCELY SEE MUCH OF PEOPLE IN MY OWN GLASS"
+      },
+      {
+        "uid": "1995-1826-0009",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 7.57,
+        "decode_s": 0.627,
+        "rtf": 0.083,
+        "wer": 42.11,
+        "hyp": "O OUTE KNOWN YO HONES IF I TEACH NIGGERELS I'LL SCARCELY SEE MUCH AS PEOPLE IN OUR OWN CLASS"
+      },
+      {
+        "uid": "1995-1826-0009",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 7.57,
+        "decode_s": 0.684,
+        "rtf": 0.09,
+        "wer": 84.21,
+        "hyp": "OW IS NO TO NO JERHASTORIS OTIN O WO BOSES ELS SCARCELY SEE MURTESLY AIMS OUR OWN ASS"
+      },
+      {
+        "uid": "1188-133604-0041",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 10.07,
+        "decode_s": 0.803,
+        "rtf": 0.08,
+        "wer": 7.41,
+        "hyp": "IT IS A GLEANER BRINGING DOWN HER ONE SHEAF OF CORN TO AN OLD WATER MILL ITSELF MOSSY AND RENT SCARCELY ABLE TO GET ITS STONES TO TURN"
+      },
+      {
+        "uid": "1188-133604-0041",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 10.07,
+        "decode_s": 0.781,
+        "rtf": 0.078,
+        "wer": 18.52,
+        "hyp": "IT IS A GLEANER BRINGING DOWN HER ONE SHEET OF TORN TO AN OLD WATER MILL ITSELF MOSSY AND RENT SCARCELY ABLE TO GET IT STONES TO TURN"
+      },
+      {
+        "uid": "1188-133604-0041",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 10.07,
+        "decode_s": 0.724,
+        "rtf": 0.072,
+        "wer": 44.44,
+        "hyp": "IT IS A GREENER BRINGING DOWN HER ONE SHEAF OF HORN TO AN OLD WATER MILL  ITSELF AN HASSY AND RAN TIED AS IS SCARCELY ABLE TO GET ITS STONES TO TIME ER"
+      },
+      {
+        "uid": "1188-133604-0041",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 10.07,
+        "decode_s": 0.737,
+        "rtf": 0.073,
+        "wer": 100.0,
+        "hyp": "ES IT IS A CLEANER BRING DOWN HER ONCE SHE HASF TI ON AND AN ALWAYS ATTER NOW I PEHARED HE STAW HER MOSSIN AN RAN TOAAY WHEN I SCARCELY ABLE TO GET OSENS AN TANIN  E"
+      },
+      {
+        "uid": "1188-133604-0032",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 10.98,
+        "decode_s": 0.796,
+        "rtf": 0.073,
+        "wer": 10.34,
+        "hyp": "IT IS ONLY A PENCIL OUTLINE BY EDWARD BURN JONES IN ILLUSTRATION OF THE STORY OF PSYKE IT IS THE INTRODUCTION OF PSYKE AFTER ALL HER TROUBLES INTO HEAVEN"
+      },
+      {
+        "uid": "1188-133604-0032",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 10.98,
+        "decode_s": 0.833,
+        "rtf": 0.076,
+        "wer": 13.79,
+        "hyp": "IT IS ONLY A PENCIL OUTLINE BY EDWARDBURN GEMS IN ILLUSTRATION OF THE STORY OF PSYCE IT IS THE INTRODUCTION OF PSYCHE AFTER ALL HER TROUBLES INTO HEAVEN"
+      },
+      {
+        "uid": "1188-133604-0032",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 10.98,
+        "decode_s": 0.804,
+        "rtf": 0.073,
+        "wer": 34.48,
+        "hyp": "IT IS ONLY A PENCIL OUTLINED BY EDWARDBURNE JONES AN ILLUSTRATION OF THE STORY OF PSYCE OIT IS THE INTRODUCTION OF PSYKE AFTER ALL HER TROUBLES INTO HEADAN THE ALL"
+      },
+      {
+        "uid": "1188-133604-0032",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 10.98,
+        "decode_s": 0.735,
+        "rtf": 0.067,
+        "wer": 79.31,
+        "hyp": "UDIS ONLY A TE RI PENSIL OUTLINES BY EVERBURN GANLES MO ILLUSTRATIONS IN STORY OF CYCLE HE DON'T SO DO WELL RE'S THE INTRODUCTIONS CYHOW AFTER ALL HER TROUBLES AND PEHAPULATION"
+      },
+      {
+        "uid": "1188-133604-0001",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 9.04,
+        "decode_s": 0.615,
+        "rtf": 0.068,
+        "wer": 0.0,
+        "hyp": "THEY UNITE EVERY QUALITY AND SOMETIMES YOU WILL FIND ME REFERRING TO THEM AS COLORISTS SOMETIMES AS CHIAROSCURISTS"
+      },
+      {
+        "uid": "1188-133604-0001",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 9.04,
+        "decode_s": 0.637,
+        "rtf": 0.071,
+        "wer": 5.56,
+        "hyp": "THEY UNITE EVERY QUALITY AND SOMETIMES YOU WILL FIND ME REFERRING TO THEM AS COLORISTS SOMETIMES AS CIRASCURISTS"
+      },
+      {
+        "uid": "1188-133604-0001",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 9.04,
+        "decode_s": 0.634,
+        "rtf": 0.07,
+        "wer": 88.89,
+        "hyp": "OBJE O UNITE EVERY QUALITY OF I EVRYOU AND SOMETIMES YOU WILL FIND ME REFINED TO THEM AS COLOROUS TEY SAL SOMETIMES HIS HAROSCUROUS Y AS YO S O NOW"
+      },
+      {
+        "uid": "1188-133604-0001",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 9.04,
+        "decode_s": 0.7,
+        "rtf": 0.077,
+        "wer": 94.44,
+        "hyp": "I UNITE EVERY PAL ON THE AN PI AND SOMETIMES YOU WILL FINALLY REFERINTO THEN THIS COLOE HE AS USIEN OR SOMETIMES AS CURE OBSCUREOUS ISAING"
+      },
+      {
+        "uid": "1188-133604-0000",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 10.72,
+        "decode_s": 0.896,
+        "rtf": 0.084,
+        "wer": 10.53,
+        "hyp": "YOU WILL FIND ME CONTINUALLY SPEAKING OF FOUR MEN TITIAN HOLBINE TURNER AND TINTARET IN ALMOST THE SAME TERMS"
+      },
+      {
+        "uid": "1188-133604-0000",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 10.72,
+        "decode_s": 0.917,
+        "rtf": 0.086,
+        "wer": 15.79,
+        "hyp": "YOU WILL FIND ME CONTINUALLY SPEAKING OF FOUR MEN PETITIAN HOBIN TURNER AND TINCARAT IN ALMOST THE SAME TERMS"
+      },
+      {
+        "uid": "1188-133604-0000",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 10.72,
+        "decode_s": 0.81,
+        "rtf": 0.076,
+        "wer": 73.68,
+        "hyp": "THE WILL FIND ME CONTINUALLY SPEAKING OF FOUR MEN IESIIII THE EXPETITIONES I HOLBUYE TARNER GATS AT ATINCARET IN ALMOST THE SAME TARM TIS SA ROOM"
+      },
+      {
+        "uid": "1188-133604-0000",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 10.72,
+        "decode_s": 0.806,
+        "rtf": 0.075,
+        "wer": 152.63,
+        "hyp": "AFTER THAT WE WILL FIND ME CONTINUALLY SOKING AF FEOMINY OL OE  PARETITIAN A THAT WAY LE BIND TE TURNER IF IT AS ANTINCAROT O TAR ARS AOU IN ALMOST THE SAME A TARM AS O TA A"
+      },
+      {
+        "uid": "4077-13751-0002",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 9.75,
+        "decode_s": 0.681,
+        "rtf": 0.07,
+        "wer": 13.64,
+        "hyp": "INSTEAD OF BUT SIX REGULARLY EFFILIATED MEMBERS AND AT MOST TWO SCORE OF ADHERENTS THE ORGANIZATION NUMBERS TO DAY MANY HUNDRED THOUSAND SOULS"
+      },
+      {
+        "uid": "4077-13751-0002",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 9.75,
+        "decode_s": 0.728,
+        "rtf": 0.075,
+        "wer": 13.64,
+        "hyp": "INSTEAD OF BUT SIX REGULARLY EFFILIATED MEMBERS AND AT MOST TWO SCORE OF ADHERENTS THE ORGANIZATION NUMBERS TO DAY MANY HUNDRED THOUSAND SOULS"
+      },
+      {
+        "uid": "4077-13751-0002",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 9.75,
+        "decode_s": 0.766,
+        "rtf": 0.079,
+        "wer": 27.27,
+        "hyp": "INSTEAD OF BOT SIX REGULARLY AFFILIATED ANVERS AND AT MOST TWO SMORE OF APPEARANCE THE ORGANIZATION NUMBERS TO DAY MANY HUNDRED THOUSAND SOULS"
+      },
+      {
+        "uid": "4077-13751-0002",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 9.75,
+        "decode_s": 0.824,
+        "rtf": 0.084,
+        "wer": 27.27,
+        "hyp": "INSTEAD OF BUT SIX AND REGULARLY AFFILIATED MEMBERS AND AT MOST FETERSON WERE OF ADHERENTS THE ORGANIZATION KNOWS TO DAY MANY HUNDRED THOUSAND SOULS"
+      },
+      {
+        "uid": "4077-13751-0008",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 10.55,
+        "decode_s": 0.789,
+        "rtf": 0.075,
+        "wer": 6.45,
+        "hyp": "IT IS NOTABLE THAT THE INDIAN TRIBES HAVE GENERALLY REGARDED THE RELIGION OF THE LATTER DAY SAINTS WITH FAVOUR SEEING IN THE BOOK OF MORMEN STRIKING AGREEMENT WITH THEIR OWN TRADITIONS"
+      },
+      {
+        "uid": "4077-13751-0008",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 10.55,
+        "decode_s": 0.857,
+        "rtf": 0.081,
+        "wer": 12.9,
+        "hyp": "IT IS NOTABLE THAT THE INDIAN TRIBES HAVE GENERALLY REGARDED THE RELIGION OF THE LATTERDAY SAINTS WITH FAVOUR SEEING IN THE BOOK OF MORMEN STRIKING AGREEMENT WITH THEIR OWN TRADITIONS"
+      },
+      {
+        "uid": "4077-13751-0008",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 10.55,
+        "decode_s": 0.806,
+        "rtf": 0.076,
+        "wer": 19.35,
+        "hyp": "IT IS NOTABLE THAT THE INAN TRIBES HAVE GENERALLY REGARDED THE RELIGION OF THE LATTER DAY SAINTS A FAVOUR SEEING IN THE BOOK OF MORMENT AN STRIKING AGREEMENT WITH THEIR OWN TRADITIONS EN"
+      },
+      {
+        "uid": "4077-13751-0008",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 10.55,
+        "decode_s": 0.77,
+        "rtf": 0.073,
+        "wer": 35.48,
+        "hyp": "THE FLIT IS NOTABLE THAT THE INDIAN TRIBES HAVE GENERALLY REGARDED THE RELIGION OF THE LATTER DAY SNANGS WITH FAVORITE RELANTIS SEEING LIK THE BOTO MORMEN IL STRIKING AGREEMENT WITH THEIR OWN TRADITIONAL SANATION"
+      },
+      {
+        "uid": "4077-13754-0014",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 10.97,
+        "decode_s": 0.822,
+        "rtf": 0.075,
+        "wer": 3.45,
+        "hyp": "THE PEOPLE CONTENTED THESE MEASURES ONE BY ONE IN THE COURTS PRESENTING IN CASE AFTER CASE THE DIFFERENT PHASES OF THE SUBJECT AND URGING THE UNCONSTITUTIONALITY OF THE MEASURE"
+      },
+      {
+        "uid": "4077-13754-0014",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 10.97,
+        "decode_s": 0.747,
+        "rtf": 0.068,
+        "wer": 3.45,
+        "hyp": "THE PEOPLE CONTESTED THESE MEASURES ONE BY ONE AND THE COURTS PRESENTING IN CASE AFTER CASE THE DIFFERENT PHASES OF THE SUBJECT AND URGING THE UNCONSTITUTIONALITY OF THE MEASURE"
+      },
+      {
+        "uid": "4077-13754-0014",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 10.97,
+        "decode_s": 0.724,
+        "rtf": 0.066,
+        "wer": 6.9,
+        "hyp": "THE PEOPLE CONTESTED THESE MEASURES ONE BY ONE IN THE GORS EPRESENTING IN CASE AFTER CASE THE DIFFERENT PHASES OF THE SUBJECT AND URGING THE UNCONSTITUTIONALITY OF THE MEASURE"
+      },
+      {
+        "uid": "4077-13754-0014",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 10.97,
+        "decode_s": 0.682,
+        "rtf": 0.062,
+        "wer": 58.62,
+        "hyp": "WHI I NOTE PEOPLE CONFESSIN THESE MEASURES ONE BY ONE AND THE ORT I SATUR AE PESENTING IN CASE AFTER CASE HA DIFFERENT PHASES OF THE SUBSECT AND URGING AN UNCONSTITUTIONALIY MEASURES"
+      },
+      {
+        "uid": "4077-13751-0020",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 10.29,
+        "decode_s": 0.706,
+        "rtf": 0.069,
+        "wer": 3.85,
+        "hyp": "AS THE SAMPLE OF THE PRESS COMMENTS AGAINST THE BRUTALITY OF THE MISSOURIANS I QUOTE A PARAGRAPH FROM THE QUINCY ARGUS MARCH SIXTEENTH EIGHTEEN THIRTY NINE"
+      },
+      {
+        "uid": "4077-13751-0020",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 10.29,
+        "decode_s": 0.689,
+        "rtf": 0.067,
+        "wer": 11.54,
+        "hyp": "AS THE SAPLE OF THE PRESS COMETS AGAINST THE BRUTALITY OF THE MISSOURIANS I QUOTE A PARAGRAPH FROM THE QUINCY ARGUS MARCH SIXTEENTH EIGHTEEN THIRTY NINE"
+      },
+      {
+        "uid": "4077-13751-0020",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 10.29,
+        "decode_s": 0.676,
+        "rtf": 0.066,
+        "wer": 11.54,
+        "hyp": "AS THA SAMPLE OF THE PRESS COMMENTS AGAINST THE BRUTALITY OF THE MISSOURIANS I QUOTE A PARAGRAPH FROM THE QUENZY ARGUS WILL MARCH SIXTEENTH EIGHTEEN THIRTY NINE"
+      },
+      {
+        "uid": "4077-13751-0020",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 10.29,
+        "decode_s": 0.741,
+        "rtf": 0.072,
+        "wer": 69.23,
+        "hyp": "AS THE STABLE ACT OF PRESS COMMENTS AGAINST THE FUTALITY OF MASSYRIAN SMECEOD ON PARAGRAPH A FROM TISE ARGUS E RARASH SIXTEENTH I ON TH MIONO"
+      },
+      {
+        "uid": "3575-170457-0003",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 7.59,
+        "decode_s": 0.48,
+        "rtf": 0.063,
+        "wer": 3.85,
+        "hyp": "SURELY IT MUST BE BECAUSE WE ARE IN DANGER OF LOVING EACH OTHER TOO WELL OF LOSING SIGHT OF THE CREATOR AN IDOLATRY OF THE CREATURE"
+      },
+      {
+        "uid": "3575-170457-0003",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 7.59,
+        "decode_s": 0.465,
+        "rtf": 0.061,
+        "wer": 3.85,
+        "hyp": "SURELY IT MUST BE BECAUSE WE ARE IN DANGER OF LOVING EACH OTHER TOO WELL OF LOSING SIGHT OF THE CREATOR AN IDOLATRY OF THE CREATURE"
+      },
+      {
+        "uid": "3575-170457-0003",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 7.59,
+        "decode_s": 0.516,
+        "rtf": 0.068,
+        "wer": 23.08,
+        "hyp": "SURELY IT MUST A BECAUSE WE ARE IN DANGER OF LOVING EACH OTHER TIWELLS OF LOSING SIGHT OF THE CREATOR AND IDOITRY OF THE CREATURE NOW"
+      },
+      {
+        "uid": "3575-170457-0003",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 7.59,
+        "decode_s": 0.518,
+        "rtf": 0.068,
+        "wer": 57.69,
+        "hyp": "SURELY IT MUSTN'T BE BECAUSE WERY MYNEAR OF LOVING EACH OTHER TOO WILE YO ON OF LOSING SIGHT OF THE CREATOR AND IDONER TOO IT WITH OR IM"
+      },
+      {
+        "uid": "3575-170457-0020",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 8.64,
+        "decode_s": 0.671,
+        "rtf": 0.078,
+        "wer": 3.23,
+        "hyp": "I KNOW THE FIRST LETTER I WROTE TO YOU IS ALL SENSELESS TRASH FROM BEGINNING TO END BUT I AM NOT ALTOGETHER THE IDLE DREAMING BEING IT WOULD SEEM TO DENOTE"
+      },
+      {
+        "uid": "3575-170457-0020",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 8.64,
+        "decode_s": 0.586,
+        "rtf": 0.068,
+        "wer": 9.68,
+        "hyp": "I KNOW THE FIRST LETTER I WROTE TO YOU WITH ALL SENSELESS TRASH FROM BEGINNING TO END BUT I AM NOT ALTOGETHER THE IDLE DREAMIN IT WOULD SEEM TO DENOTE"
+      },
+      {
+        "uid": "3575-170457-0020",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 8.64,
+        "decode_s": 0.725,
+        "rtf": 0.084,
+        "wer": 22.58,
+        "hyp": "I KNOW THE FIRST LETTER I WROTE TO YOU WITH ALL SENSIOUS TRASH FROM BEGINNING TO ENDBUT I AM NOT ALTOGETHER THE IDLE DREAMING OFTHAT IT WOULD SEEM TO DENOW CLUDY"
+      },
+      {
+        "uid": "3575-170457-0020",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 8.64,
+        "decode_s": 0.67,
+        "rtf": 0.078,
+        "wer": 61.29,
+        "hyp": "I KNOW THE FIRST LETTER I WROS TO WIT THE LANTER'S LESS TRASH FROM THE NIG NOWN ARSAN BUT I AM NOT ALTOGETHER THE IDLE OF DREAMS I MEIN TO I IN YOSI  KNOWI AA"
+      },
+      {
+        "uid": "3575-170457-0055",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 11.85,
+        "decode_s": 1.276,
+        "rtf": 0.108,
+        "wer": 5.71,
+        "hyp": "STILL HER HEART HAD RECEIVED A SHOCK IN THE PERCEPTION OF ANNE'S DELICACY IN ALL THESE HOLIDAYS SHE WATCHED OVER HER WITH THE LONGING FAWN ANXIETY WHICH IS SO FULL OF SUDDEN PANGS OF FEAR"
+      },
+      {
+        "uid": "3575-170457-0055",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 11.85,
+        "decode_s": 0.941,
+        "rtf": 0.079,
+        "wer": 5.71,
+        "hyp": "STILL HER HEART HAD RECEIVED A SHOCK IN THE PERCEPTION OF ANNE'S DELICACY IN ALL THESE HOLIDAYS SHE WATCHED OVER HER WITH THE LONGING FAWN ANXIETY WHICH IS SO FULL OF SUDDEN PANGS OF FEAR"
+      },
+      {
+        "uid": "3575-170457-0055",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 11.85,
+        "decode_s": 0.976,
+        "rtf": 0.082,
+        "wer": 28.57,
+        "hyp": "WHY STILL HER HEART HAD RECEIVED A SHOCK IN THE PERCEPTION OF ANNE'S DELICACY A LIG ANOBBY'S HOLIDAYS SHE WATCHED OVER HER WITH A LONGING FAWN ANXIETY AND TO SO FULL OF SUDDEN PANGS OF FUR ONTREE"
+      },
+      {
+        "uid": "3575-170457-0055",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 11.85,
+        "decode_s": 0.928,
+        "rtf": 0.078,
+        "wer": 80.0,
+        "hyp": "IN OITO HOW HARD HAD RECESED TO SHOCKING IN THE PERCEPTION DO VON O DE MA E LEOMANSES AND ALL THESE HOLIDAYS SHE WATCHED OVR RINA LONGING AFOND OF THE I A WHICH IS SOLY AL AR SUDDEN HAS E  EIN"
+      },
+      {
+        "uid": "3575-170457-0044",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 9.72,
+        "decode_s": 0.73,
+        "rtf": 0.075,
+        "wer": 0.0,
+        "hyp": "AFTER THIS DISAPPOINTMENT I NEVER DARE RECKON WITH CERTAINTY ON THE ENJOYMENT OF A PLEASURE AGAIN IT SEEMS AS IF SOME FATALITY STOOD BETWEEN YOU AND ME"
+      },
+      {
+        "uid": "3575-170457-0044",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 9.72,
+        "decode_s": 0.676,
+        "rtf": 0.07,
+        "wer": 0.0,
+        "hyp": "AFTER THIS DISAPPOINTMENT I NEVER DARE RECKON WITH CERTAINTY ON THE ENJOYMENT OF A PLEASURE AGAIN IT SEEMS AS IF SOME FATALITY STOOD BETWEEN YOU AND ME"
+      },
+      {
+        "uid": "3575-170457-0044",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 9.72,
+        "decode_s": 0.692,
+        "rtf": 0.071,
+        "wer": 22.22,
+        "hyp": "O AFTER THIS DISAPPOINTMENT I NEVER DARE RECKON WITH CERTAINTY ON THE ENJOYMENT OF THE PLEASURE AGAIN WHEN HER SEEMS AS IF SOME FATALITY STOOD BETWEEN HER AND MEKENS"
+      },
+      {
+        "uid": "3575-170457-0044",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 9.72,
+        "decode_s": 0.706,
+        "rtf": 0.073,
+        "wer": 59.26,
+        "hyp": "O AF FOR THIS DISAPPOINTMENT OYON I NEVER DARE RECKON WITH CERTAIN NOT ON THE ENJOYMENT OF THE PLEASURE GOWN BWOR IT SEEMS AS IN OUM FATALITY TOTURNON UNGLE"
+      },
+      {
+        "uid": "3570-5695-0000",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 4.83,
+        "decode_s": 0.308,
+        "rtf": 0.064,
+        "wer": 7.69,
+        "hyp": "IN A GENERAL WAY THOUGH NOT WHOLLY NOR CONSISTENTLY THESE TWO GROUPS COINCITE"
+      },
+      {
+        "uid": "3570-5695-0000",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 4.83,
+        "decode_s": 0.286,
+        "rtf": 0.059,
+        "wer": 53.85,
+        "hyp": "IN A GENERAL WAY THOUGH NOT WHOLLY AN OR CONSISTEN TO THESE TWO GROUPS CO IN FIGHT"
+      },
+      {
+        "uid": "3570-5695-0000",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 4.83,
+        "decode_s": 0.286,
+        "rtf": 0.059,
+        "wer": 46.15,
+        "hyp": "IN A GENERAL WAY THOUGH NOT WHOLLY NOR CONSISTENT ASE TO VERY U GLASSISE"
+      },
+      {
+        "uid": "3570-5695-0000",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 4.83,
+        "decode_s": 0.321,
+        "rtf": 0.066,
+        "wer": 100.0,
+        "hyp": "YOAN GENERAL WATA THOUGH NOT HOLLY IN OR CONSOCIETY ANXI O GREETS EFIE AN I"
+      },
+      {
+        "uid": "3570-5696-0002",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 7.51,
+        "decode_s": 0.525,
+        "rtf": 0.07,
+        "wer": 9.52,
+        "hyp": "ARE THE CIRCUMSTANCES PERMITTING THAT INSTINCT DISPOSES MEN TO LOOK WITH FAVOR UPON PRODUCTIVE EFFICIENCY AND ON WHATEVER IS OF HUMAN USE"
+      },
+      {
+        "uid": "3570-5696-0002",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 7.51,
+        "decode_s": 0.473,
+        "rtf": 0.063,
+        "wer": 57.14,
+        "hyp": "ARE THE CIRCUMSTANCES PERMITTINCT THAT INSTINCT TI THOSE S MEN TO LIF WITH FAVORIT CON ODE TE EFICIENCY AND ON WHATEVER IS OF HUMAN USE"
+      },
+      {
+        "uid": "3570-5696-0002",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 7.51,
+        "decode_s": 0.519,
+        "rtf": 0.069,
+        "wer": 47.62,
+        "hyp": "O THE CIRCUMSTANCES PERMITTING THAT INSTINCT DISPOSES MEN TO LOOK WITH FAVOUR UPOM E A TER EFFICIENCIES AND ALWHASTEVER IS OF HUMAN USE"
+      },
+      {
+        "uid": "3570-5696-0002",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 7.51,
+        "decode_s": 0.531,
+        "rtf": 0.071,
+        "wer": 119.05,
+        "hyp": "GOTHE SUC A AS  EMITE THAT IN AIR HE HUMS HIS REND TO TE LI AVER AN UNDEE WIT E HITIN AND ONWITH EVERY AIGE ON HUMAN YEASIN O"
+      },
+      {
+        "uid": "3570-5695-0004",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 10.6,
+        "decode_s": 0.815,
+        "rtf": 0.077,
+        "wer": 2.7,
+        "hyp": "IF BEAUTE OR COMFORT IS ACHIEVED AND IT IS A MORE OR LESS FORTUITOUS CIRCUMSTANCE IF THEY ARE THEY MUST BE ACHIEVED BY MEANS AND METHODS THAT COMMEND THEMSELVES TO THE GREAT ECONOMIC LAW OF WASTED EFFORT"
+      },
+      {
+        "uid": "3570-5695-0004",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 10.6,
+        "decode_s": 0.742,
+        "rtf": 0.07,
+        "wer": 40.54,
+        "hyp": "IF FAUTURE COMFOT IS ACHIEVED AND IT IS MORE OR LESS PUTTRUE TO SETAN STANSIC THEY ARE THEY MUST BE ACHIEVED BY MEANS AND MEITS THAT COMMEND THEMSELVES WITH GREAT ECONOMIC RAW OF WAIST OF EFFORTS"
+      },
+      {
+        "uid": "3570-5695-0004",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 10.6,
+        "decode_s": 0.74,
+        "rtf": 0.07,
+        "wer": 45.95,
+        "hyp": "IF FUTURE COMFORT IS ACHIEVED AND IT IS A MORE OR LEST PECUSOS CIRCUMSTANS E GARE ARPOSUS THEY MUST BE ACHIEVED BY MEANS AND METHEDS THAT COMMEND THEMSELVES TITH GREAT ANOLI AMANTEN WAC TEY ESSA  T"
+      },
+      {
+        "uid": "3570-5695-0004",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 10.6,
+        "decode_s": 0.718,
+        "rtf": 0.068,
+        "wer": 97.3,
+        "hyp": "YOU DER CONTE CEVE AND IT IS MORAL YORI TEA THEY ANSER E AIETHEY MUST TEA ME O BYE WHO CAN MAEY AR TE EN EN EN TO AN R GRATATINO MANS WHEN THEY AS SE E TE"
+      },
+      {
+        "uid": "3570-5694-0001",
+        "track": "test-clean",
+        "cond": "clean",
+        "duration_s": 5.67,
+        "decode_s": 0.342,
+        "rtf": 0.06,
+        "wer": 5.88,
+        "hyp": "THE UTILITY OF CONSUMPTION AS AN EVIDENCE OF WEALTH IS TO BE CLASSED AS A DERIVITIVE GROWTH"
+      },
+      {
+        "uid": "3570-5694-0001",
+        "track": "test-clean",
+        "cond": "pink10",
+        "duration_s": 5.67,
+        "decode_s": 0.346,
+        "rtf": 0.061,
+        "wer": 5.88,
+        "hyp": "THE UTILITY OF CONSUMPTION AS AN EVIDENCE OF WEALTH IS TO BE CASSED AS A DERIVATIVE GROWTH"
+      },
+      {
+        "uid": "3570-5694-0001",
+        "track": "test-clean",
+        "cond": "babble10",
+        "duration_s": 5.67,
+        "decode_s": 0.326,
+        "rtf": 0.057,
+        "wer": 17.65,
+        "hyp": "THE UTILITY OF CONSUMPTION AS AN EVIDENCE OF WEALTH IS TO BE CAST AS A DERIVITIVE GROWTH A"
+      },
+      {
+        "uid": "3570-5694-0001",
+        "track": "test-clean",
+        "cond": "babble5",
+        "duration_s": 5.67,
+        "decode_s": 0.356,
+        "rtf": 0.063,
+        "wer": 111.76,
+        "hyp": "SIL YOU TELL AT IV COME AN DO AS AN EVIDENCE O O THAT BESI GO TAT OF AS AGERIVIRCHIM MEROIN IN AN"
+      },
+      {
+        "uid": "367-130732-0016",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 4.69,
+        "decode_s": 0.295,
+        "rtf": 0.063,
+        "wer": 12.5,
+        "hyp": "TAKE THE MEAT OF ONE LARGE CRAB SCRAPING OUT ALL THE BAT FROM THE SHELL"
+      },
+      {
+        "uid": "367-130732-0016",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 4.69,
+        "decode_s": 0.282,
+        "rtf": 0.06,
+        "wer": 25.0,
+        "hyp": "TAKE THE MEAT OF ONE LARGE CRAB SCRAPING ON ALL THE BACK ON THE SHELL"
+      },
+      {
+        "uid": "367-130732-0016",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 4.69,
+        "decode_s": 0.27,
+        "rtf": 0.058,
+        "wer": 87.5,
+        "hyp": "ONE SIN TEMEAN OF ONE LARGE CAT AN THE SCAP YONG ALL THE MAT IN THE SHIL O E"
+      },
+      {
+        "uid": "367-130732-0016",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 4.69,
+        "decode_s": 0.305,
+        "rtf": 0.065,
+        "wer": 93.75,
+        "hyp": "ICONVINTE MEETEN WHEN T E MAGACANO SCINI ALL THELADS WERE SHOWN"
+      },
+      {
+        "uid": "367-130732-0022",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 7.45,
+        "decode_s": 0.432,
+        "rtf": 0.058,
+        "wer": 14.29,
+        "hyp": "SO FAR IT HAS BEEN USED MOSTLY FOR GARNISHMENT OF OTHER DISHES AND IT IS ONLY RECENTLY THAT THE WHOLE BROW HAS BEEN MAKING ESPECIALTY OF THEM"
+      },
+      {
+        "uid": "367-130732-0022",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 7.45,
+        "decode_s": 0.443,
+        "rtf": 0.059,
+        "wer": 10.71,
+        "hyp": "SO FAR IT HAS BEEN USED MOSTLY FOR GARNISHMENT OF OTHER DISHES AND IT IS ONLY RECENTLY THAT THE WHOLE BROW HAS BEEN MAKING E SPECIALTY OF THEM"
+      },
+      {
+        "uid": "367-130732-0022",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 7.45,
+        "decode_s": 0.507,
+        "rtf": 0.068,
+        "wer": 39.29,
+        "hyp": "N SO FAR IT HAS BEEN REDUCED MOSTLY FOR GARNISHMENT OF ONEDITIOUSM AND IT IS ONLY RECENTLY THAT THE HOLE BROW HAS BEEN MEAKING ESPECIALS YOU HAVE NOVENAS"
+      },
+      {
+        "uid": "367-130732-0022",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 7.45,
+        "decode_s": 0.512,
+        "rtf": 0.069,
+        "wer": 46.43,
+        "hyp": "SO FAR IN HEASHURRY IS MOSING FOR GARNISHMENT OF OTHER DISHES THAT IT IS ONLY RECENTLY AND THE WHOLE BROWN AS ON MAKING A SPECIALTY IN TEME"
+      },
+      {
+        "uid": "367-293981-0001",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 4.96,
+        "decode_s": 0.357,
+        "rtf": 0.072,
+        "wer": 14.29,
+        "hyp": "I SAY SO CONTINUED DON QUIXOTE BECAUSE I HATE TAKING AWAY ANY ONE'S GOOD NAME"
+      },
+      {
+        "uid": "367-293981-0001",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 4.96,
+        "decode_s": 0.379,
+        "rtf": 0.076,
+        "wer": 7.14,
+        "hyp": "I SAY SO CONTINUED DON QUIXOTE BECAUSE I HATE TAKING AWAY ANYONE'S GOOD NEEM"
+      },
+      {
+        "uid": "367-293981-0001",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 4.96,
+        "decode_s": 0.312,
+        "rtf": 0.063,
+        "wer": 21.43,
+        "hyp": "I SAY SO CONTINUED DON TANTOTE BECAUSE HI HATE TAKING AWAY ANYONE'S GOOD NAMO"
+      },
+      {
+        "uid": "367-293981-0001",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 4.96,
+        "decode_s": 0.302,
+        "rtf": 0.061,
+        "wer": 57.14,
+        "hyp": "I SAY SO EJAIN DON'T HALARDAY ONCE BECAUSE I HATE TAKENR AWAY EVERYONE'S SIGNAI"
+      },
+      {
+        "uid": "367-130732-0012",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 8.44,
+        "decode_s": 0.552,
+        "rtf": 0.065,
+        "wer": 0.0,
+        "hyp": "I SAY COME TO SAN FRANCISCO ADVISEDLY FOR WHILE THE CRAB IS FOUND ALL ALONG THE COAST IT IS PREPARED NOWHERE SO DELICIOUSLY AS IN SAN FRANCISCO"
+      },
+      {
+        "uid": "367-130732-0012",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 8.44,
+        "decode_s": 0.541,
+        "rtf": 0.064,
+        "wer": 14.81,
+        "hyp": "I SAY COME TO SAN FRANCISCO ADVISE MEE FOR WHILE THE CRAB IS BOUND ALL ALONG THE COAST THAT IS PREPARED NOWHERE SO DELICIOUSLY AS IN SAN FRANCISCO"
+      },
+      {
+        "uid": "367-130732-0012",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 8.44,
+        "decode_s": 0.562,
+        "rtf": 0.067,
+        "wer": 51.85,
+        "hyp": "I SAY  COME TO SEVY INTIS GOER ADVISABLY FOR WHILE THE RABBIS BE ON ALL MON'S COASTS AND IS PREPARED NOWHERE SO DELICIOUSLY AS THE GENERAL DISGU"
+      },
+      {
+        "uid": "367-130732-0012",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 8.44,
+        "decode_s": 0.612,
+        "rtf": 0.073,
+        "wer": 77.78,
+        "hyp": "E I SAY FLER COME TO SAN FRANCES A A GRIDIN ME RING AWHILE THE PRAMIS BOUN ALL ALONG THE HOUSE AN TIS BOUT HEIR NOWHERE SO DELICIOUSLY AS I AS THAT DISCOVER"
+      },
+      {
+        "uid": "7902-96591-0014",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 9.71,
+        "decode_s": 0.735,
+        "rtf": 0.076,
+        "wer": 0.0,
+        "hyp": "THE KICK HE HAD RECEIVED WAS A FORETASTE OF WHAT HE MIGHT EXPECT AND AFTER A LITTLE CONSIDERATION HE CAME TO THE CONCLUSION THAT HIS DUTY WAS TO ESCAPE AND GET BACK TO THE CUTTER AS QUICKLY AS HE COULD"
+      },
+      {
+        "uid": "7902-96591-0014",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 9.71,
+        "decode_s": 0.686,
+        "rtf": 0.071,
+        "wer": 17.5,
+        "hyp": "THE KICKEY HAD RECEIVED WITH A FORETASTE OF WHAT HE MIGHT EXPECT AND AF TER LITTLE CONSIDERATION HE CAME TO THE CONCLUSION THAT HIS DUTYD WAS TO ESCAPE AND GET BACK TO THE FEDER AS QUICKLY AS HE COULD"
+      },
+      {
+        "uid": "7902-96591-0014",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 9.71,
+        "decode_s": 0.704,
+        "rtf": 0.073,
+        "wer": 42.5,
+        "hyp": "E KIPHE HAD RECEIVED WITH A FORETASTE OF WHAT HE MIGHT EXPECT O HV AND AFTER A LITTLE CONSIDERATION HE CAME TO THE CONIUTON THAT HI NEW HE WAS TO ESCAPE FROME AND GET BACK TO THE CUTIRS QUICKLY ON I CUD ION"
+      },
+      {
+        "uid": "7902-96591-0014",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 9.71,
+        "decode_s": 0.63,
+        "rtf": 0.065,
+        "wer": 90.0,
+        "hyp": "ETO CRETE AV A SEEER OUT OF O FORETASTE OF WHAT H WEN EXPURT NOW N TE O MRIN CONSIDERATIONS HE CAMS FOR THE DEMINUS OMON HIS OWN YARS TO A SANT CAND I CAN BE ABEISMI TO ANY WAY I'M GOING HARRY"
+      },
+      {
+        "uid": "7902-96592-0032",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 4.33,
+        "decode_s": 0.28,
+        "rtf": 0.065,
+        "wer": 0.0,
+        "hyp": "NO I CAN'T PART WITH THAT HA HA HA LAUGHED THE BOY JEERINGLY"
+      },
+      {
+        "uid": "7902-96592-0032",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 4.33,
+        "decode_s": 0.328,
+        "rtf": 0.076,
+        "wer": 30.77,
+        "hyp": "NO I CAN'T PART WITH THAT TRAAA LAUGHED THE BOY JEERINGME"
+      },
+      {
+        "uid": "7902-96592-0032",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 4.33,
+        "decode_s": 0.322,
+        "rtf": 0.074,
+        "wer": 69.23,
+        "hyp": "LESS YOUNOW I CAN'T PART WITH THAT AHA NOT ANGOR JEERING OU"
+      },
+      {
+        "uid": "7902-96592-0032",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 4.33,
+        "decode_s": 0.318,
+        "rtf": 0.073,
+        "wer": 100.0,
+        "hyp": "DI KNOWI O HAERD I HAA HEN A PA JURIARITA"
+      },
+      {
+        "uid": "7902-96591-0015",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 9.61,
+        "decode_s": 0.709,
+        "rtf": 0.074,
+        "wer": 6.25,
+        "hyp": "TO DO THIS HE MUST SCHEME LIE HID TILL MORNING THEN MAKE FOR THE NEAREST POINT AND SIGNAL FOR HELP UNLES THE BOAT'S CREW WERE ALREADY SEARCHING FOR HIM HOW TO ESCAPE"
+      },
+      {
+        "uid": "7902-96591-0015",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 9.61,
+        "decode_s": 0.689,
+        "rtf": 0.072,
+        "wer": 28.12,
+        "hyp": "TO DO THIS HE MUST SCHEME LIE HID TILL MORNING AND MAKE TO THE NEAREST POINT SIGNAL FOR HELP MOST THE MOST CRUE ROARY SEARCHING FOR HIM HOW TO ESCAPE"
+      },
+      {
+        "uid": "7902-96591-0015",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 9.61,
+        "decode_s": 0.652,
+        "rtf": 0.068,
+        "wer": 62.5,
+        "hyp": "DE TO DO THIS HE MUST SCHEME WLIE HID TILL MORNING AND MAKE FOR THE NEAREST POINT AN SINLI FOR GO THAT AS A BOST CRUEL ROLRADY CERTAIN HERE AN STAG RATER AIN HOW TO WA SCAMI YE"
+      },
+      {
+        "uid": "7902-96591-0015",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 9.61,
+        "decode_s": 0.565,
+        "rtf": 0.059,
+        "wer": 75.0,
+        "hyp": "TO DO THIS HE MUST STEEM AT I WULD LIKE HIM TILL MORNING THEN MAKE FOR THENEAREST BONO SIGNIFIRTELF IA O O MOSE CRUL RORY CERTAIN A NIT A IS HOA ALL HOW TO ESCAPE O I"
+      },
+      {
+        "uid": "7902-96592-0029",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 5.37,
+        "decode_s": 0.307,
+        "rtf": 0.057,
+        "wer": 5.0,
+        "hyp": "HE DIVIDED THE PAINT AND PRODUCED A FEW SQUEAKS AND GRATING SOUNDS AS HE REALIZED THAT THE ATTEMPT WAS MADNESS"
+      },
+      {
+        "uid": "7902-96592-0029",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 5.37,
+        "decode_s": 0.359,
+        "rtf": 0.067,
+        "wer": 55.0,
+        "hyp": "HE DIVIDED THE PAIN TO FRODUCE TI FUCE FUCE TO BRAYING SOUNDS AS HE REALIZED THE ATTEMPT OF MADNESS"
+      },
+      {
+        "uid": "7902-96592-0029",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 5.37,
+        "decode_s": 0.338,
+        "rtf": 0.063,
+        "wer": 35.0,
+        "hyp": "HE DIVIDED THE PAIN AND PRODUCED A FEW SQUEEKS OF GRATING SOUNDS AS HE REALIZED THE ATTEMPT WAS MADNESS OF ES"
+      },
+      {
+        "uid": "7902-96592-0029",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 5.37,
+        "decode_s": 0.325,
+        "rtf": 0.061,
+        "wer": 105.0,
+        "hyp": "ON YOU STA DIVIDED THE PANG AT NEVER OINS TAN AIN RIN TSOM THAT HE'S REAL AC AN MAN MY SOMTING A AS"
+      },
+      {
+        "uid": "6070-86744-0027",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 10.41,
+        "decode_s": 0.842,
+        "rtf": 0.081,
+        "wer": 3.45,
+        "hyp": "AND THIS TIME IT MUST BE CONFISSED THAT CONTRARY TO THE USUAL STATE OF AFFAIRS IN DISCUSSIONS BETWEEN THE YOUNG MEN THE EFFECTIVE ARGUMENTS WERE ALL ON ALBERT'S SIDE"
+      },
+      {
+        "uid": "6070-86744-0027",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 10.41,
+        "decode_s": 0.814,
+        "rtf": 0.078,
+        "wer": 51.72,
+        "hyp": "AND THIS TIME IT MUST BECONFESSED THAT CONTRARICTHOR DIVISION FAVOR E FAR AN SPUSSIONS WICH WE THE YOUNG MAN THE EFFECTIVE ARGUMENTS WERE ALL ON ALBET'S SINE"
+      },
+      {
+        "uid": "6070-86744-0027",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 10.41,
+        "decode_s": 0.79,
+        "rtf": 0.076,
+        "wer": 58.62,
+        "hyp": "AND THIS TIME IT MUST BECONEFERTES THAT OT A RICHARD A USUAL STATE AN FAIRER IN DISCUSSION BETWEEN THE YOUNG MAR ATHE EFFECTIVE ARGUMES FOR ALL IN ARGROF TE IOS"
+      },
+      {
+        "uid": "6070-86744-0027",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 10.41,
+        "decode_s": 0.761,
+        "rtf": 0.073,
+        "wer": 110.34,
+        "hyp": "AAN TIS EEN MUS SPEAK OF OURAS DO IN COFIDENTIOUS EONTHO A STATON RAO THE CEASES A IN TE YON NA IN IS  E SAT A O UEN A  ALL AS ABASAN A A"
+      },
+      {
+        "uid": "6070-86744-0010",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 5.67,
+        "decode_s": 0.351,
+        "rtf": 0.062,
+        "wer": 0.0,
+        "hyp": "FOR FRANCE NO FOR VENICE I SHALL REMAIN IN ITALY FOR ANOTHER YEAR OR TWO"
+      },
+      {
+        "uid": "6070-86744-0010",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 5.67,
+        "decode_s": 0.355,
+        "rtf": 0.063,
+        "wer": 26.67,
+        "hyp": "FO FANCE NO FOR VENICE I SHALL REMAIN IN ITALY FOR ANOTHER  YERE AL TWO"
+      },
+      {
+        "uid": "6070-86744-0010",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 5.67,
+        "decode_s": 0.306,
+        "rtf": 0.054,
+        "wer": 46.67,
+        "hyp": "FENEN I HAM NO FORFENIS I SHALL REMAIN IN INTERLY FOR ANOTHER YEAR OR TERYOU"
+      },
+      {
+        "uid": "6070-86744-0010",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 5.67,
+        "decode_s": 0.358,
+        "rtf": 0.063,
+        "wer": 126.67,
+        "hyp": "O A OIN A E CA NO FOR OR BROTHER I SHOW E LAN AN ITENING FIRM THAT  WEA LONG TON NO"
+      },
+      {
+        "uid": "6070-63485-0002",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 10.64,
+        "decode_s": 0.692,
+        "rtf": 0.065,
+        "wer": 0.0,
+        "hyp": "BY MEANS OF THIS STRATAGEM THEY FOLLOWED SO CLOSELY THAT ALTHOUGH WITHIN A FEW STEPS OF SARAH AND TOM THEY DID NOT HEAR THEM"
+      },
+      {
+        "uid": "6070-63485-0002",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 10.64,
+        "decode_s": 0.767,
+        "rtf": 0.072,
+        "wer": 25.0,
+        "hyp": "BY MEANS OF THIS TRACTAGAIN THEY FOLLOWED SO CLOSELY THAT ALBOWED WITHIN FIER STEPS OF SAILING TOM THEY DID NOT HEAR THEM"
+      },
+      {
+        "uid": "6070-63485-0002",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 10.64,
+        "decode_s": 0.806,
+        "rtf": 0.076,
+        "wer": 45.83,
+        "hyp": "MENO BY MEANS OF THIS STRATAGAIR OIGE THEY FOLLOWED SO CLOSELY ETHEADS  ENSMEN OVER WITHIN A FEW STEPS OF SAIRAND TAM  THAT THEY DID NOT HEAR THEIR ESEN"
+      },
+      {
+        "uid": "6070-63485-0002",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 10.64,
+        "decode_s": 0.807,
+        "rtf": 0.076,
+        "wer": 133.33,
+        "hyp": "TAT I KNEW  ON NOASANIN INIENATION ALL OF HIS WIS I ALSO OER NIGHT PASS AND IN MANY YAR I CANT THAT EQUIREMEN MY HAR O AS WEL TO NI NOW A TE"
+      },
+      {
+        "uid": "6070-86745-0013",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 8.14,
+        "decode_s": 0.681,
+        "rtf": 0.084,
+        "wer": 5.26,
+        "hyp": "PESTS I WILL DO NOTHING OF THE KIND THE MOMENT THEY COME FROM GOVERNMENT YOU WOULD FIND THEM EXECRABLE"
+      },
+      {
+        "uid": "6070-86745-0013",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 8.14,
+        "decode_s": 0.698,
+        "rtf": 0.086,
+        "wer": 15.79,
+        "hyp": "PESTS I WILL DO NOTHING OF THE KIND THE MOMENT THEY COME FROM GOVERNMENT YOU WILL FIND THEM EXCETRABLE"
+      },
+      {
+        "uid": "6070-86745-0013",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 8.14,
+        "decode_s": 0.598,
+        "rtf": 0.073,
+        "wer": 47.37,
+        "hyp": "IS O PESS YOU I WILL DO NOTHING OF THE KIND THE MOSENT THEY COME FROM ROFFINNEST VEW WOULD FIND THEM EXTACTL  THAT"
+      },
+      {
+        "uid": "6070-86745-0013",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 8.14,
+        "decode_s": 0.565,
+        "rtf": 0.069,
+        "wer": 142.11,
+        "hyp": "AT MAI LANIS A SN I WILLDO NOTHINGS OF E KIND I WO TA E TESMAN TE HUSBAN AT OFFEN IN I A MELA RYN TELICIN LET ROI AN"
+      },
+      {
+        "uid": "533-131562-0001",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 8.45,
+        "decode_s": 0.685,
+        "rtf": 0.081,
+        "wer": 20.0,
+        "hyp": "DA KISS OF YOUR CABINET THASDROWER AND WHATEVER ELSE YOU POSSESS SAID HE RISING AND HOLDING OUT HIS HAND"
+      },
+      {
+        "uid": "533-131562-0001",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 8.45,
+        "decode_s": 0.636,
+        "rtf": 0.075,
+        "wer": 30.0,
+        "hyp": "AN A KISS OF YOUR CAVERNET DES DRAWER AND WHATEVER ELSE YOU POSSESS SAID HE RISING AND HOLDING OUT HIS HAND"
+      },
+      {
+        "uid": "533-131562-0001",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 8.45,
+        "decode_s": 0.589,
+        "rtf": 0.07,
+        "wer": 30.0,
+        "hyp": "NI A THE KEYS OF YOUR CAVERNMENTL DENCE DRAWERS AND WHATEVER ELSE YOU POSSESS YOU SAID HE RISING AND HOLDING OUT HIS HAND OUR"
+      },
+      {
+        "uid": "533-131562-0001",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 8.45,
+        "decode_s": 0.534,
+        "rtf": 0.063,
+        "wer": 70.0,
+        "hyp": "O TE CUS OF YOUR CAVENO THEN JUS HE DRAWER AND WHATEVER ELSE HE POSSESSED ISAID HE AND RISING AND HOLDING OUT HIS HAND WI SOLDER"
+      },
+      {
+        "uid": "533-1066-0010",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 6.78,
+        "decode_s": 0.42,
+        "rtf": 0.062,
+        "wer": 10.0,
+        "hyp": "PUT ON HEAVY SHOES AND SUME ALL DARK CLOTHES AND MAKE UP YOUR MIND NOT TO BE SURPRISED AT ANYTHING"
+      },
+      {
+        "uid": "533-1066-0010",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 6.78,
+        "decode_s": 0.506,
+        "rtf": 0.075,
+        "wer": 15.0,
+        "hyp": "PUT ON HEAVY SHOES AND SEMM ALL DAUR CLOTHES AND MAKE UP YOUR MIND NOT TO BE SURPRISED AT ANYTHING"
+      },
+      {
+        "uid": "533-1066-0010",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 6.78,
+        "decode_s": 0.527,
+        "rtf": 0.078,
+        "wer": 30.0,
+        "hyp": "EM PUT ON HEAVY SHOES AND SOMEALL DARK CLOTHES AND THEY EPT YOUR MIND NOT TO BE SURPRISED AT ANYTHING ROOR"
+      },
+      {
+        "uid": "533-1066-0010",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 6.78,
+        "decode_s": 0.429,
+        "rtf": 0.063,
+        "wer": 60.0,
+        "hyp": "OM WUT ON HEAVY SHOES AND SOME OLD A ROSE WITH IN AND MAKE UPT YOUR MIND NOT TO BE SURPRISED WITH RAINING BOIN OIS I"
+      },
+      {
+        "uid": "533-131556-0008",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 5.29,
+        "decode_s": 0.385,
+        "rtf": 0.073,
+        "wer": 25.0,
+        "hyp": "YOU MAY GO O MELLISON AND SHE'LL FOLLOW IN A WHILE MELLICONT WENT"
+      },
+      {
+        "uid": "533-131556-0008",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 5.29,
+        "decode_s": 0.395,
+        "rtf": 0.075,
+        "wer": 41.67,
+        "hyp": "YOU MAY GO MILLISON IT YOULL FOLLOW IN A WHILE MILLISON FREND"
+      },
+      {
+        "uid": "533-131556-0008",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 5.29,
+        "decode_s": 0.379,
+        "rtf": 0.072,
+        "wer": 83.33,
+        "hyp": "YOU MAY GO MILLISON AND YHELL FOLLOW IN A WHILE OR MALIS O TE RYMEN MILLITON WEN OL"
+      },
+      {
+        "uid": "533-131556-0008",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 5.29,
+        "decode_s": 0.49,
+        "rtf": 0.093,
+        "wer": 175.0,
+        "hyp": "AND IF I CAN MAKE OLD MELLI END ME IT SHELL FOLLOW INA WHILE LINE IF THE DAMSEERS DROP MYLI SENC LANERS E"
+      },
+      {
+        "uid": "533-1066-0007",
+        "track": "test-other",
+        "cond": "clean",
+        "duration_s": 8.32,
+        "decode_s": 0.909,
+        "rtf": 0.109,
+        "wer": 0.0,
+        "hyp": "I MEAN HE PERSISTED DO YOU FEEL AS THOUGH YOU COULD GO THROUGH WITH SOMETHING RATHER UNUSUAL"
+      },
+      {
+        "uid": "533-1066-0007",
+        "track": "test-other",
+        "cond": "pink10",
+        "duration_s": 8.32,
+        "decode_s": 0.668,
+        "rtf": 0.08,
+        "wer": 0.0,
+        "hyp": "I MEAN HE PERSISTED DO YOU FEEL AS THOUGH YOU COULD GO THROUGH WITH SOMETHING RATHER UNUSUAL"
+      },
+      {
+        "uid": "533-1066-0007",
+        "track": "test-other",
+        "cond": "babble10",
+        "duration_s": 8.32,
+        "decode_s": 0.677,
+        "rtf": 0.081,
+        "wer": 29.41,
+        "hyp": "I WIN I MEAN OD HE PERSISTED NONSMENT DO YOU FEEL AS THOUGH YOU COULD GO THROUGH WITH SOMETHING RATHER UNUSUAL RO"
+      },
+      {
+        "uid": "533-1066-0007",
+        "track": "test-other",
+        "cond": "babble5",
+        "duration_s": 8.32,
+        "decode_s": 0.719,
+        "rtf": 0.086,
+        "wer": 47.06,
+        "hyp": "AT I OWWHAT I MEAN YOU HE PERSISTED OWHAT DID YOU FEEL AS THOUGH YOU COULD GO STRUGH WITH SOMETHING RATHER UNUSUAL W"
+      }
+    ],
+    "total_audio_s": 1198.0,
+    "total_decode_s": 87.5,
+    "overall_rtf": 0.073
+  }
+}

@@ -1,0 +1,7 @@
+# LibriSpeech archives + extracted corpus (~700 MB, re-downloadable via 01_download_data.py)
+data/raw/
+# generated evaluation audio (regenerate via 02_prepare_audio.py)
+data/eval/
+__pycache__/
+*.pyc
+models/

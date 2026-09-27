@@ -1,0 +1,25 @@
+model,label,track,condition,n_utt,mean_wer_pct,mean_rtf,peak_rss_mb,load_s
+whisper_base,"Whisper base.en (faster-whisper, int8)",test-clean,clean,20,4.28,0.155,852,4.6
+whisper_base,"Whisper base.en (faster-whisper, int8)",test-clean,pink10,20,6.68,0.148,852,4.6
+whisper_base,"Whisper base.en (faster-whisper, int8)",test-clean,babble10,20,8.74,0.146,852,4.6
+whisper_base,"Whisper base.en (faster-whisper, int8)",test-clean,babble5,20,25.59,0.15,852,4.6
+whisper_base,"Whisper base.en (faster-whisper, int8)",test-other,clean,16,8.0,0.185,852,4.6
+whisper_base,"Whisper base.en (faster-whisper, int8)",test-other,pink10,16,15.19,0.177,852,4.6
+whisper_base,"Whisper base.en (faster-whisper, int8)",test-other,babble10,16,19.34,0.182,852,4.6
+whisper_base,"Whisper base.en (faster-whisper, int8)",test-other,babble5,16,43.81,0.221,852,4.6
+distil_small,"Distil-Whisper small.en (faster-whisper, int8)",test-clean,clean,20,4.8,0.355,811,4.9
+distil_small,"Distil-Whisper small.en (faster-whisper, int8)",test-clean,pink10,20,7.26,0.356,811,4.9
+distil_small,"Distil-Whisper small.en (faster-whisper, int8)",test-clean,babble10,20,5.55,0.362,811,4.9
+distil_small,"Distil-Whisper small.en (faster-whisper, int8)",test-clean,babble5,20,14.61,0.359,811,4.9
+distil_small,"Distil-Whisper small.en (faster-whisper, int8)",test-other,clean,16,8.35,0.458,811,4.9
+distil_small,"Distil-Whisper small.en (faster-whisper, int8)",test-other,pink10,16,12.63,0.464,811,4.9
+distil_small,"Distil-Whisper small.en (faster-whisper, int8)",test-other,babble10,16,16.31,0.467,811,4.9
+distil_small,"Distil-Whisper small.en (faster-whisper, int8)",test-other,babble5,16,28.66,0.464,811,4.9
+wav2vec2_base,"Wav2Vec2 base 960h (transformers, fp32)",test-clean,clean,20,5.32,0.075,1344,12.7
+wav2vec2_base,"Wav2Vec2 base 960h (transformers, fp32)",test-clean,pink10,20,16.7,0.074,1344,12.7
+wav2vec2_base,"Wav2Vec2 base 960h (transformers, fp32)",test-clean,babble10,20,37.52,0.073,1344,12.7
+wav2vec2_base,"Wav2Vec2 base 960h (transformers, fp32)",test-clean,babble5,20,87.63,0.073,1344,12.7
+wav2vec2_base,"Wav2Vec2 base 960h (transformers, fp32)",test-other,clean,16,7.25,0.072,1344,12.7
+wav2vec2_base,"Wav2Vec2 base 960h (transformers, fp32)",test-other,pink10,16,24.68,0.072,1344,12.7
+wav2vec2_base,"Wav2Vec2 base 960h (transformers, fp32)",test-other,babble10,16,48.78,0.07,1344,12.7
+wav2vec2_base,"Wav2Vec2 base 960h (transformers, fp32)",test-other,babble5,16,94.35,0.07,1344,12.7

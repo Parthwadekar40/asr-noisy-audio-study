@@ -1,0 +1,17 @@
+# ASR benchmark stack (CPU). Pinned to versions used for the reported results.
+# Host: Linux x86_64, 2-core CPU, 2 GB RAM, Python 3.13
+
+faster-whisper==1.2.1        # CTranslate2 backend for Whisper + Distil-Whisper
+transformers==5.17.0         # Wav2Vec2 CTC pipeline
+torch==2.14.0                # CPU wheel; see pytorch.org for the right index
+jiwer                        # WER scoring
+soundfile                    # FLAC/WAV IO
+numpy
+scipy
+librosa
+psutil                       # peak-RSS sampling
+
+# report tooling (only needed to regenerate the PDFs, script 06)
+markdown
+weasyprint
+pypdf
