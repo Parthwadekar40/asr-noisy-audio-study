@@ -20,7 +20,7 @@ Babble noise is created by summing five random utterances spoken by people
 who are NOT in the evaluation set, which is the standard way to approximate
 a noisy call-centre floor without shipping a proprietary noise corpus.
 
-Everything is written as 16 kHz mono WAV (what all four models expect) and a
+Everything is written as 16 kHz mono WAV (what all three models expect) and a
 manifest.json records reference transcripts and per-condition SNR targets so
 the whole pipeline is reproducible.
 """
