@@ -11,11 +11,10 @@ data/eval/manifest.json and records:
   * peak process RSS           -> sampled every 50 ms in a background thread
   * word error rate            -> jiwer, after standard ASR text normalisation
 
-Models benchmarked (see report for why these):
+Models benchmarked:
   1. faster-whisper base.en          (int8, CTranslate2, CPU)
   2. faster-distil-small.en          (int8, CTranslate2, CPU)
   3. wav2vec2-base-960h              (fp32, HuggingFace transformers, CPU)
-  4. moonshine-base                  (ONNX runtime, CPU)  [bonus / edge track]
 
 Usage:
     python scripts/03_benchmark.py                 # all models
@@ -120,18 +119,6 @@ def run_wav2vec2(model_id: str, wav: str) -> str:
     return proc.decode(ids)
 
 
-def run_moonshine(model_id: str, wav: str) -> str:
-    global _MOON
-    if "_MOON" not in globals():
-        import moonshine_onnx
-
-        _MOON = moonshine_onnx.MoonshineOnnxModel(model_name="moonshine/base")
-    import moonshine_onnx
-
-    out = moonshine_onnx.transcribe(wav, model=_MOON)
-    return out[0] if isinstance(out, list) else out  # decode_batch -> list
-
-
 MODELS = {
     "whisper_base": {
         "label": "Whisper base.en (faster-whisper, int8)",
@@ -144,16 +131,6 @@ MODELS = {
     "wav2vec2_base": {
         "label": "Wav2Vec2 base 960h (transformers, fp32)",
         "runner": lambda wav: run_wav2vec2("facebook/wav2vec2-base-960h", wav),
-    },
-    "moonshine_base": {
-        "label": "Moonshine base (ONNX runtime)",
-        "runner": lambda wav: run_moonshine("usefulsensors/moonshine-base", wav),
-    },
-    "whisper_large_v3_turbo": {
-        "label": "Whisper large-v3-turbo (faster-whisper, int8)",
-        "runner": lambda wav: run_faster_whisper(
-            "deepdml/faster-whisper-large-v3-turbo-ct2", wav
-        ),
     },
 }
 
